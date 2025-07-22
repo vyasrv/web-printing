@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "School Management Software | Best School ERP - VigoCamp",
+  title: "Online Printing Services | Custom Printing - Printo",
   description: "VigoCamp is an all-in-one cloud-based school ERP with features like e-learning, attendance, fees, transport tracking, and more—streamline your campus operations easily.",
 };
 

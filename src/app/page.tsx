@@ -28,6 +28,7 @@ import Signup from "../components/SignUp";
 import { FaUserPlus } from "react-icons/fa";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { motion } from "framer-motion"
+import HomePageSlider from "@/components/HomePageSlider";
 const Header = dynamic(() => import('../components/Header'), {
   loading: () => <p>Loading...</p>,
 })
@@ -200,6 +201,105 @@ const plans = [
   }
 ]
 
+const shopNeeds = [
+  {
+    title: "For Startups",
+    image: "/homepage/startup.webp",
+  },
+  {
+    title: "Events and Promotions",
+    image: "/homepage/Event-and-Promotions.webp",
+  },
+  {
+    title: "Cafe And Restaurant Essentials",
+    image: "/homepage/Cafe-and-Restaurant--Essentials.webp",
+  },
+  {
+    title: "Employee Engagement",
+    image: "/homepage/Employee-engagement.webp",
+  },
+];
+
+const bestSellers = [
+  {
+    title: "Classic Business Cards",
+    image: "/homepage/rudra.webp",
+  },
+  {
+    title: "Packaging Labels",
+    image: "/homepage/labels.webp",
+  },
+  {
+    title: "Booklets",
+    image: "/homepage/Booklerts.webp",
+  },
+  {
+    title: "Flyers",
+    image: "/homepage/Flyer.webp",
+  },
+  {
+    title: "Cards",
+    image: "/homepage/Cards.webp",
+  },
+  {
+    title: "Stickers",
+    image: "/homepage/Best-sellers.webp",
+  },
+  {
+    title: "Hoodies & Sweatshirts",
+    image: "/homepage/winterwears.webp",
+  },
+  {
+    title: "Acrylic Prints",
+    image: "/homepage/Acrylic-prints.webp",
+  },
+  {
+    title: "Certificates",
+    image: "/homepage/Certificates.webp",
+  },
+  {
+    title: "ID Cards",
+    image: "/homepage/Id-cards.webp",
+  },
+  {
+    title: "Tote Bags",
+    image: "/homepage/Tote-bag.webp",
+  },
+  {
+    title: "Photo Books",
+    image: "/homepage/photo-book.webp",
+  },
+];
+
+const blogs = [
+  {
+    // title: "For Startups",
+    image: "/homepage/the-blog-title..webp",
+  },
+  {
+    // title: "Events and Promotions",
+    image: "/homepage/blog1.webp",
+  },
+  {
+    // title: "Cafe And Restaurant Essentials",
+    image: "/homepage/blog2.webp",
+  },
+];
+
+const SliderData = [
+  {
+    "num": "1",
+    "img": "/homepage/slider1.webp"
+  },
+  {
+    "num": "2",
+    "img": "/homepage/slider2.webp"
+  },
+  {
+    "num": "3",
+    "img": "/homepage/slider3.webp"
+  },
+];
 
 const { offer, TeachersPanel, ParentsPanel, AdminPanel, tabFeatures, benefits, faqDataOne, faqDataTwo, roles } = PageData;
 
@@ -258,8 +358,7 @@ export default function Page() {
         <meta charSet="utf-8" />
         <meta name="language" content="en" />
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-        {/* <title> School Management Software | Best School ERP - VigoCamp  </title> */}
-        <title> School Management Software | Best School ERP - VigoCamp  </title>
+        <title> Online Printing Services | Custom Printing - Printo </title>
         <meta name="description" content="VigoCamp is an all-in-one cloud-based school ERP with features like e-learning, attendance, fees, transport tracking, and more—streamline your campus operations easily." />
         <link rel="canonical" href="https://" />
         <meta property="og:url" content="https://" />
@@ -278,198 +377,406 @@ export default function Page() {
       </Head>
 
       <section className="overflow-hidden">
-        <div className="max-width w-full bg-cover bg-gradient-to-r from-[#09327f] to-[#06183b] text-white  no-repeat md:pt-0 pt-32 relative">
-          <div className="relative">
-            <Header />
-            <div className="w-11/12 xl:w-1/2 mx-auto xl:pt-32 md:pt-28 !text-center max-w-7xl  ">
-              <div className="space-y-10 w-full py-5 ">
-                <h1 className="md:text-[60px] text-3xl font-bold md:leading-[3.5rem] capitalize font-inter  ">
-                  School Management Software
-                </h1>
-                <p className="lg:text-md text-base font-medium font-nunito relative z-20">
-                  VigoCamp is a feature-packed, modern, and cloud-based school management software that manages academic workload through streamlining operations and enhanced efficiency.
-                </p>
+        {/* 1 */}
+        <Header />
+        <div className="mt-52 ">
+          {/* <div className="max-width w-full bg-cover ">
+          <div className="w-11/12 2xl:w-4/5 xl:w-[90%] flex lg:flex-row flex-col md:items-center mx-auto xl:pt-0 pt-28 justify-between md:space-y-0 space-y-10 max-w-7xl">
+            <div className="lg:w-1/2">
+              <HeroSection
+                title="Welcome To Vigorous IT"
+                titleOne=" A Destination For Advanced IT Solutions"
+                para="We are a trusted IT company that provides unique IT solutions for multiple businesses growth. We enable businesses to forget their boundaries and touch limitless excellence. With the aim to provide services that aligns your business requirements, we guarantee your business growth."
+                buttonCount={2}
+                buttonNames={["Hire Developer", "View Case Studies"]}
+                callToActionLine={undefined}
+              />
+            </div>
 
-                <div className="flex justify-center items-center">
-                  <div className="flex flex-wrap gap-4 items-center text-white text-sm justify-center">
-                    <button className="w-60 h-10 justify-center rounded-md bg-secondary hover:bg-white transition-all duration-500 ease-in hover:text-black flex gap-2 items-center relative z-20" onClick={openSignup}>
-                      <FaUserPlus size={15} />Sign Up Now, Its Free
-                    </button>
-                    <button className="w-52 h-10 justify-center rounded-md hover:bg-white/80 bg-white transition-all duration-500 ease-in text-black flex gap-1 items-center" onClick={openLogin}>
-                      <IoIosArrowRoundForward size={25} /> Learn More
-                    </button>
-
-                    {(isLoginOpen || isSignupOpen) && (
-                      <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-                        <div className="bg-white w-full max-w-3xl p-6 rounded-lg shadow-lg flex relative">
-                          <button className="absolute top-2 right-2 text-gray-500 hover:text-black" onClick={closeModal}>
-                            ✕
-                          </button>
-
-                          <div className="w-full md:w-1/2 p-8">
-                            {isLoginOpen ? (
-                              <Login onSwitch={() => { setIsLoginOpen(false); setIsSignupOpen(true); }} onClose={closeModal} isOpen={openLogin} />
-                            ) : (
-                              <Signup onSwitch={() => { setIsSignupOpen(false); setIsLoginOpen(true); }} onClose={closeModal} isOpen={openSignup} />
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                    )}
-                  </div>
+            <div className="lg:w-1/2 lg:flex xl:justify-center justify-end hidden">
+              <div className="xl:pt-32 relative">
+                <Image src="/images/home/banner-img.webp" alt="banner" title="banner" width={300} height={150} priority={true} className="z-30 h-[87%]" />
+                <div className="absolute xl:top-[31%] top-[16%] right-[18px] z-20   ">
+                  <MobileBannerForm />
                 </div>
-                <div className="flex justify-center items-center relative mt-32">
-                  <div className="relative w-[90%] max-w-[600px] ">
-                    <Image
-                      src="/images/home/vigocamp-laptop.webp"
-                      alt="Laptop"
-                      // className="w-full h-auto"
-                      width={600}
-                      loading="eager"
-                      priority
-                      height={200}
-                    />
-                    <div className="absolute right-2 sm:right-10 top-2 sm:top-5 bounce-slow w-[30%] max-w-[180px]">
-                      <Image
-                        src="/images/home/vigocamp-mobile.webp"
-                        alt="Mobile"
-                        // className="w-full h-auto"
-                        width={180}
-                        loading="eager"
-                        priority
-                        height={200}
-                      />
-                    </div>
-                  </div>
 
-                  <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute left-0 top-40 bounce-slow-one lg:block hidden">
-                    <Image src="/images/home/hero-side-two.webp" alt="" width={50} height={200} />
-                  </motion.div>
-                  <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute right-[0px] top-28 bounce-slow-two lg:block hidden">
-                    <Image src="/images/home/hero-side-two.webp" alt="" width={50} height={200} />
-                  </motion.div>
-                </div>
+                <div className="absolute xl:top-[12rem] top-[3rem] left-2/4 -translate-x-[50%] z-20 text-[1.3rem] font-extrabold text-white ">Get In Touch</div>
               </div>
             </div>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute right-52 top-3/4 lg:block hidden">
-              <Image src="/images/sq.png" alt="" width={20} height={200} className="orbit" />
-            </motion.div>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute left-80 top-1/2 half-circle-motion md:block hidden z-10">
-              <Image src="/images/circle.png" alt="" width={20} height={200} />
-            </motion.div>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute left-40 top-1/3 bounce-slow z-10">
-              <Image src="/images/tri1.png" alt="" width={60} height={200} className="orbit grayscale" />
-            </motion.div>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute right-40 top-1/3 lg:block hidden">
-              <Image src="/images/tri4.png" alt="" width={20} height={200} className="orbit" />
-            </motion.div>
-            <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, transition: { duration: 1, delay: 2 }, opacity: 1 }} className="absolute right-1/2 top-1/2 translate-x-1/2 z-10 ">
-              <Image src="/images/tri1.png" alt="" width={60} height={200} className="orbit grayscale" />
-            </motion.div>
+            <div className="w-full lg:hidden  ">
+              <ContactForm />
+            </div>
           </div>
-          <div className="w-full mt-[-1px]">
-            <Image src="/images/white-wave.svg" alt="white-wave" width={60} height={200} className="w-full" loading="eager" priority />
-            {/* <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 1200 120"
-              preserveAspectRatio="none"
-              style={{ transform: 'rotate(180deg)' }}
-            >
-              <path
-                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,
-       82.39-16.72,168.19-17.73,250.45-.39C823.78,31,
-       906.67,72,985.66,92.83c70.05,18.48,146.53,
-       26.09,214.34,3V0H0V27.35A600.21,600.21,
-       0,0,0,321.39,56.44Z"
-                fill="#ffffff"
-                stroke="#ffffff"
-                strokeWidth="1"
-              />
-            </svg> */}
+        </div> */}
+
+          <HomePageSlider SliderData={SliderData} />
+          {/* 2 */}
+          {/* <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 py-10 lg:py-12 max-w-7xl md:space-y-10 space-y-4 font-nunito flex lg:flex-row flex-col-reverse items-center">
+          <div className='md:w-1/2 w-11/12  mx-auto'>
+            <Image src='/images/home/about-us-img.webp' alt="About Vigorous IT" title="About Vigorous IT" width={600} height={400} />
           </div>
-        </div>
-
-        <About
-          title={"Welcome To VigoCamp: All-In-One School ERP Software"}
-          paraOne="We take charge of enhancing the school’s efficiency and letting them manage all school operations with an all-in-one powerful platform. VigoCamp software is specifically helpful in offering a digitally connected school ecosystem, which makes it a perfect software that has the power to fulfil the needs of modern-day educational institutions. It makes the communication process easier with integrations like WhatsApp/SMS APIs, while further integrations play an important role in offering a paperless and centralized administrative system."
-          paraTwo=""
-          paraFour=""
-          paraThree="" btnName={undefined}
-          img="/images/home/about-us.webp" type={undefined} />
-
-        <Panels
-          title="VigoCamp Management Software Panel Features"
-          decs="VigoCamp makes it easy for every stakeholder, including admins, students/parents, and teachers, to contribute to the institute."
-          PanelOne={TeachersPanel}
-          PanelTwo={ParentsPanel}
-          AdminPanel={AdminPanel}
-          AdminTech="Admin Panel"
-          PanelOneTech="Teachers Panel"
-          PanelTwoTech="Student/Parents Panel"
-          AdminImage="/images/home/panels/admin-panel.webp"
-          PanelOneImage="/images/home/panels/teacher-panel.webp"
-          PanelTwoImage="/images/home/panels/student-parent-panel.webp"
-          PanelIconsOne={undefined} PanelIconsTwo={undefined} PanelIconsThree={undefined} types={"white-image"}
-        />
-        <Features title={"Vigo Offers Effortless Operations Handling With Its Advanced Features"} desc={"With a clean and intuitive UX/UI, VigoCamp is a user-friendly and powerful software with a variety of add-ons. "} tabFeatures={tabFeatures} tabs={tabs} />
-
-
-
-        <motion.div initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1, transition: { duration: 1 } }} className="bg-primary py-10 text-center text-white">
-          <h2 className="text-3xl font-bold ">
-            Select Your Role To Setup Your School
+          <div className='lg:w-1/2 w-full space-y-5 m-auto lg:py-0 py-5'>
+            <div className="space-y-5 relative w-full">
+              <h2 className="xl:block hidden text-transparent bg-clip-text text-stroke-white text-8xl capitalize font-inter bottom-[1%]  md:absolute  left-[22%] md:transform md:-translate-x-2/4">About</h2>
+              <h3 className='lg:text-4xl text-3xl font-bold font-inter capitalize text-primary text-left'>About Vigorous IT</h3>
+            </div>
+            <p className="lg:text-2xl text-xl md:font-medium md:pr-5 pr-0 text-ternary "> WELCOME DIGITAL TECH IN YOUR BUSINESSES WITH US:</p>
+            <p className=' lg:text-md text-base text-ternary'>At Vigorous, we have a team of tech enthusiasts who are dedicated to their commitments.They love innovation and always do research to upgrade their skills. We are shaping a brighter future for different companies, enterprises and organizations through our cutting-edge IT solutions. After working with multiple brands, and serving many individual entrepreneurs, we are a leading IT company in the market. Our client retention and happy customers tell all about our success story about how we win the market and also the hearts of our customers. What else you need when an expert and dedicated team is prepared to grow your business. </p>
+            <div className="pt-5 md:block flex justify-left md:w-full w-4/5">
+              <Button
+                url={"/contact-us"}
+                btnName={"Contact Us"}
+                clipShapeBgColor={"secondary"} bgColor={'bg-[#F55B14]'} iconColor={'text-white'} onClickFunc={undefined} />
+            </div>
+          </div>
+        </div> */}
+          {/* <div className="bg-primary py-10 text-center w-full flex justify-center items-center flex-col ">
+          <h2 className="lg:text-3xl text-2xl font-bold text-white xl:leading-[3rem]  pb-5">
+            Our Wall of Fame as a Mobile App Development Company
           </h2>
-          <p className=" mt-1">( In 2 Steps Only )</p>
 
-          <div className="flex justify-center flex-wrap xl:gap-6 gap-1 mt-10 ">
-            {roles.map((role) => (
-              <div
-                key={role.label}
-                onClick={() => setSelectedRole(role.label)}
-                className={`sm:w-52 w-32 sm:h-40 h-32  bg-white text-black rounded-lg shadow-md flex flex-col items-center justify-center border-2 cursor-pointer transition-all duration-300 ${selectedRole === role.label
-                  ? "border-blue-500 ring-2 ring-blue-400"
-                  : "border-transparent hover:border-gray-200 hover:ring-2 hover:ring-gray-400 "
-                  }`}
-              >
-                {selectedRole === role.label && (
-                  <div className="absolute  bg-blue-500 text-white rounded-full p-1 z-50 inline">
-                    <TiTick />
+          <div className=" w-[99%] flex flex-wrap xl:flex-nowrap gap-4 justify-center items-center sm:p-4 ">
+            <div className="w-full lg:w-auto flex xl:flex-wrap gap-4 xl:overflow-visible overflow-x-auto scroll-smooth snap-x snap-mandatory px-4  slidenone1">
+
+              <div className="bg-transparent border  shadow-lg rounded-3xl sm:p-4 p-2 w-44 h-60 flex flex-col items-center snap-start shrink-0">
+                <div className="h-36 w-full flex justify-center items-center">
+                  <Image width={200} height={100} src="/images/home/wall-of-fame-logo/good-firm.webp" alt="eCommerce Development Companies" className="object-contain h-36 w-auto" />
+                </div>
+                <h3 className="text-lg font-semibold mt-3 text-white">GoodFirms</h3>
+                <p className="text-sm text-white text-center"></p>
+              </div>
+
+              <div className="bg-transparent border  shadow-lg rounded-3xl sm:p-4 p-2 w-44 h-60 flex flex-col items-center snap-start shrink-0">
+                <Link href="https://www.c2creview.co/company/betpro-coders">
+                  <div className="h-36 w-full flex justify-center items-center">
+                    <Image width={200} height={100} src="/images/home/wall-of-fame-logo/game-development-c2c.webp" alt="" className="object-contain h-36 w-auto" />
                   </div>
-                )}
-                <Image src={role.image} alt={role.label} width={50} height={10} className="sm:w-10 sm:h-16 mb-2" />
-                <p className="font-semibold text-sm">{role.label}</p>
+                </Link>
+                <h3 className="text-lg font-semibold mt-3 text-white">C 2 C Review</h3>
+                <p className="text-sm text-white text-center"></p>
+              </div>
+
+              <div className="bg-transparent border  shadow-lg rounded-3xl sm:p-4 p-2 w-44 h-60 flex flex-col items-center snap-start shrink-0">
+                <Link href="https://topfirms.co/companies/ios-app-development/india" target="_blank">
+                  <div className="h-36 w-full flex justify-center items-center">
+                    <Image width={200} height={100} src="/images/home/wall-of-fame-logo/top-firms.webp" alt="eCommerce Development Companies" className="object-contain h-36 w-auto" />
+                  </div>
+                </Link>
+                <h3 className="text-lg font-semibold mt-3 text-white ">TopFirms</h3>
+                <p className="text-sm text-white text-center"></p>
+              </div>
+
+              <div className="bg-transparent border  shadow-lg rounded-3xl sm:p-4 p-2 w-44 h-60 flex flex-col items-center snap-start shrink-0">
+                <div className="h-40 w-full flex justify-center items-center">
+                  <Image width={200} height={80} src="/images/home/wall-of-fame-logo/techbehemoths.webp" alt="eCommerce Development Companies" className="object-contain h-36 w-auto" />
+                </div>
+                <h3 className="text-lg font-semibold  text-white">Tech Behemoths</h3>
+                <p className="text-sm text-white text-center"></p>
+              </div>
+
+              <div className="bg-transparent border  shadow-lg rounded-3xl sm:p-4 p-2 w-44 h-60 flex flex-col items-center snap-start shrink-0">
+                <div className="h-40 w-full flex justify-center items-center">
+                  <Image width={200} height={100} src="/images/home/wall-of-fame-logo/design-awards.webp" alt="eCommerce Development Companies" className="object-contain h-36 w-auto" />
+                </div>
+                <h3 className="text-lg font-semibold mt-3 text-white">Top Design Awards</h3>
+                <p className="text-sm text-white text-center"></p>
+              </div>
+            </div>
+          </div>
+        </div> */}
+          {/* 4 */}
+          {/* <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 pb-10 lg:pb-12 max-w-7xl text-center space-y-5 font-nunito flex flex-col justify-center items-center">
+          <div className="relative w-full lg:pt-10 pt-0">
+            <h2 className="xl:block hidden text-transparent bg-clip-text md:whitespace-nowrap text-stroke-white text-8xl font-inter bottom-[1%] md:absolute left-[50%] md:transform md:-translate-x-2/4">
+              Our Work
+            </h2>
+            <h3 className="font-inter lg:text-4xl text-3xl font-bold text-primary capitalize">
+              We work with Startups, Agencies & Enterprises
+            </h3>
+          </div>
+          <p className="lg:text-md text-base text-ternary lg:px-28 pb-4">
+            At Vigorous, we have something for everyone. If you are a startup, we have a robust website development service for you; if you are an agency, we will enable you to cover the additional projects with professionalism; and if you are an enterprise, we enable you to increase your revenue stream through our expertise.
+          </p>
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+            {workData.map((item, index) => (
+              <div key={index} className="group">
+                <div className="relative group-hover:scale-110 transition-transform duration-300">
+                  <Image src={item.imageSrc} alt={item.altText} title={item.title} width={400} height={400} />
+                  <p className="text-center mt-2 px-4 py-1.5 rounded-full border absolute -bottom-4 left-[50%] transform -translate-x-2/4 bg-gray-600 text-white text-base group-hover:bg-black">
+                    {item.title}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
+        </div> */}
+          {/* 
+        <OtherExpertise /> */}
 
-          <button
+          {/* 3 */}
+          {/* <ServicesIndex mobile={mobile} website={website} quality={quality} marketing={marketing} infrastructure={infrastructure} consulting={consulting} /> */}
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-10">
+              <div className="flex justify-center items-center w-full">
+                <img src="/homepage/Icon-banner.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div>
 
-            className="mt-8 px-6 py-1.5 text-sm bg-white font-normal text-black rounded hover:bg-secondary hover:text-white transition-all"
-            disabled={!selectedRole}
-          >
-            <Link href="/roles" target="blank">
-              Next</Link>
-          </button>
-        </motion.div>
+          {/* <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-10">
+              <div className="flex justify-center items-center w-full">
+                <img src="/homepage/Icon-banner.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div> */}
 
-        <Plans
-          title="VigoCamp ERP Pricing – Plans That Bring Growth"
-          desc="Vigo offers flexible pricing tailored to your needs that allows school of all scales to enjoy their innovative services to reduce their workload."
-          Plans={plans} />
 
-        <Offer
-          title={"What Do We Offer? Get Exact What Makes Your School Competitive"}
-          desc={"VigoCamp is one of India's most appreciated school management software from different kinds of reputed resources."}
-          Offer={offer} />
-        <Benefits
-          title="Benefits Of School ERP Software"
-          desc="VigoCamp is a leading school ERP software that brings ease to the lives of all school stakeholders, including admins, teachers, students, and parents."
-          benefits={benefits} />
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-5">
+              <div className="text-center mb-4 flex justify-center items-center gap-4">
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+                <h2 className="text-2xl font-bold text-gray-800 inline-block">
+                  Popular Categories
+                </h2>
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+              </div>
+              <div className="grid md:grid-cols-4 sm:grid-cols-4 grid-cols-2 gap-4 w-full">
+                <img src="/homepage/App.webp" alt="banner" title="banner" />
+                <img src="/homepage/Awards.webp" alt="banner" title="banner" />
+                <img src="/homepage/Stationery.webp" alt="banner" title="banner" />
+                <img src="/homepage/Corporate-gifts.webp" alt="banner" title="banner" />
+                <img src="/homepage/drinkers.webp" alt="banner" title="banner" />
+                <img src="/homepage/packaing.webp" alt="banner" title="banner" />
+                <img src="/homepage/Photo-gifts.webp" alt="banner" title="banner" />
+                <img src="/homepage/Sign-and-marketing.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div>
 
-        <FaqSection faqDataOne={faqDataOne} faqDataTwo={faqDataTwo} />
 
-        <ClientTestimonial />
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-5">
+              <div className="flex justify-center items-center w-full">
+                <img src="/homepage/Strip-banner.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div>
 
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="px-4 py-5">
+              <div className="text-center mb-5 flex justify-center items-center gap-4">
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+                <h2 className="text-2xl font-bold text-gray-800 inline-block">
+                  Shop By Needs
+                </h2>
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                {shopNeeds?.map((item, index) => (
+                  <div key={index} className="space-y-4">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full object-cover shadow"
+                    />
+                    <h3 className="text-sm font-semibold text-gray-800">
+                      {item.title}
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="px-4 py-8">
+              <div className="text-center mb-5 flex justify-center items-center gap-4">
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+                <h2 className="text-2xl font-bold text-gray-800 inline-block">
+                  Best Sellers
+                </h2>
+                <hr className="w-1/3 bg-gray-400 h-[2px] " />
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-6 gap-8 text-center">
+                {bestSellers?.map((item, index) => (
+                  <div key={index} className="space-y-4">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      title={item.title}
+                      className="w-full object-cover shadow"
+                    />
+                    <h3 className="text-sm font-semibold text-gray-800">
+                      {item.title}
+                    </h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-5">
+              <img src='/homepage/Bottom-banners.webp' />
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-5">
+              <div className="flex flex-col gap-2 justify-center items-center w-full">
+                <img src="/homepage/Bottom-banners1.webp" alt="banner" title="banner" />
+                <img src="/homepage/Bottom-banners2.webp" alt="banner" title="banner" />
+                <img src="/homepage/Bottom-banners3.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="py-5">
+              <img src='/homepage/logo-gif.webp' />
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="px-4 py-5">
+              <div className="grid grid-cols-3 gap-6 text-center">
+                {blogs?.map((item, index) => (
+                  <div key={index} className="space-y-4">
+                    <img
+                      src={item.image}
+                      // alt={item.title}
+                      className="w-full"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* 11 */}
+          {/* <CallToAction title="Transform Your Business Today" desc="Experience the power of innovative IT solutions. Contact us now for a free consultation and discover how we can help you for your business growth." btnName="Get A Demo" bgImage="/images/home/call-to-action.webp" /> */}
+
+          {/* <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+          <div className="py-5">
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="mb-8">
+                <h2 className="text-2xl font-bold text-purple-800">From the blog.</h2>
+                <p className="text-[17px] text-black font-semibold mt-2">
+                  Join us in exploring the world of print through our blog.
+                </p>
+                <p className="text-gray-700 mt-2 max-w-[500px] leading-relaxed">
+                  From choosing the ideal paper to creating remarkable prints, our
+                  articles are your compass to navigate the world of print. Whether
+                  you're creating cherished memories or business materials, we're here
+                  to guide you!{" "}
+                  <a href="#" className="text-purple-700 hover:underline">
+                    Read More
+                  </a>
+                </p>
+              </div>
+              <div className="bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition">
+                <img
+                  src="https://via.placeholder.com/400x200"
+                  alt="Blog 1"
+                  className="w-full h-[200px] object-cover rounded"
+                />
+                <p className="text-gray-800 font-medium mt-4">
+                  From eco-friendly labels to AR-powered prints - discover the top 5
+                  custom printing trends redefining 2025.
+                </p>
+                <a
+                  href="#"
+                  className="text-purple-700 font-medium mt-3 inline-block hover:underline"
+                >
+                  Read More
+                </a>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition">
+                <img
+                  src="https://via.placeholder.com/400x200"
+                  alt="Blog 2"
+                  className="w-full h-[200px] object-cover rounded"
+                />
+                <p className="text-gray-800 font-medium mt-4">
+                  Summer’s here, and so are the coolest ways to print your brand into
+                  every moment. Curious? Dive in.
+                </p>
+                <a
+                  href="#"
+                  className="text-purple-700 font-medium mt-3 inline-block hover:underline"
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> */}
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl">
+            <div className="w-full md:flex justify-between items-center py-6">
+              <div className="flex justify-center items-center md:w-1/2 gap-2 w-full">
+                <img src="/homepage/map.webp" alt="map" title="map" />
+              </div>
+              <div className="flex justify-center items-center md:w-1/2 w-full">
+                <img src="/homepage/gif-demo.webp" alt="banner" title="banner" />
+              </div>
+            </div>
+          </div>
+
+          <div className="mx-auto 2xl:w-9/12 xl:w-5/6 w-11/12 max-w-7xl  ">
+            <div className="py-8 space-y-5">
+              <h2 className="text-[24px] pb-3"> Printo - For You, Making Your Print Experience Hassle-Free</h2>
+              <p className="text-black/70"> At Printo, we turn your ideas into real-world print magic.  From custom business cards to employee joining kits, branded signage, corporate gifting and everything in between  -  we've been India's go-to print-on-demand platform since 2006.
+              </p>
+              <p className="text-black/70">
+                Headquartered in Bangalore, we operate a state-of-the-art 50,000+ sq. ft production facility and 28+ retail stores across 6 major cities. Whether you're a startup founder looking to print just 5 T-shirts or an enterprise rolling out 5,000 onboarding kits
+              </p>
+            </div>
+          </div>
+          {/* 8 */}
+          {/* <Offering /> */}
+
+          {/* 5 */}
+          {/* <section className="w-full bg-black space-y-20 pb-10 lg:pt-0 pt-20 xl:block hidden">
+          <PartnersLogo partnersOne={partnersOne} partnersTwo={partnersTwo} title="BRANDS" para="We proudly say that we collaborate with some well-known brands. These collaborations build our confidence, expertise and encourage us to provide tailored IT solutions. These collaborations also help us to ready a blueprint for international businesses growth. Now, we have experience, expertise, and roadmap to grow any large scale business. " titleOne="Brands We work" type={1} />
+        </section> */}
+
+          {/* <section className="w-full bg-black space-y-20 pb-10 lg:pt-0 pt-20 xl:hidden block">
+          <PartnersLogoMobileView title={"Brands We work"} para={"We proudly say that we collaborate with some well-known brands. These collaborations build our confidence, expertise and encourage us to provide tailored IT solutions. These collaborations also help us to ready a blueprint for international businesses growth. Now, we have experience, expertise, and roadmap to grow any large scale business."} partnersOne={partnersOne} partnersTwo={partnersTwo} />
+        </section> */}
+
+          {/* 13 */}
+          {/* <section className="w-11/12 py-10 mx-auto text-center ">
+          <div className="relative w-full lg:pt-10 pt-0">
+            <h2 className="xl:block hidden text-transparent bg-clip-text text-stroke-white text-8xl font-inter -bottom-[1%] md:absolute left-[50%] md:transform md:-translate-x-2/4">Process</h2>
+            <p className='font-inter lg:text-4xl text-3xl font-bold text-primary capitalize '>
+              Our Work <span className="font-extrabold">Process</span>
+            </p>
+          </div>
+          <p className="lg:text-md text-base font-nunito xl:w-3/4 mx-auto py-5">We use our experience, expertise and edge-cutting technologies to develop the most effective IT solution for your business growth. We provide softwares with innovative designs, user friendly interface and data navigation system. Further, we use advanced technologies to make them stronger against potential threats like malware attacks. This way, we encourage businesses to crush the competition.
+          </p>
+          <div className="xl:w-1/2 w-11/12 mx-auto space-y-10 text-center ">
+            <Image src="/images/home/process.png" alt="process" width={900} height={200} />
+          </div>
+        </section> */}
+
+          {/* 7 */}
+          {/* <Industries /> */}
+
+          {/* 6 */}
+          {/* <CaseStudy /> */}
+
+          {/* 10 */}
+          {/* <Testimonials /> */}
+
+          {/* 14 */}
+          {/* <Promotional /> */}
+
+          {/* 9 */}
+          {/* <BuildTask /> */}
+        </div>
       </section>
     </>
   );
