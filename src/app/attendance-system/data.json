@@ -1,0 +1,278 @@
+{
+    "estimation": [
+        {
+            "title": "App Type",
+            "img": "/images/expertise/e-commerce/factors/app-type.svg",
+            "decs": "With an unique UIN number, the RFID marks accurate attendance of the student/faculty. As the process is automatic, there is no chance of human error. With real-time attendance, the faculty can track the student activities effectively. Also, there is no chance of proxy as everyone has a unique ID, making the process 100% accurate."
+        },
+        {
+            "title": "Platform Choice",
+            "img": "/images/expertise/fantasy-sports-app/cost-estimation/platform.svg",
+            "decs": "Unlike the traditional roll calling, RFID attendance takes barely a few seconds for marking the attendance just by displaying the RFID card near the reader. Also, the faculty can identify, verify, and authorize student attendance within seconds from the database. There is no need to maintain manual records as the process is completely automated."
+        },
+        {
+            "title": "UI/UX Design",
+            "img": "/images/expertise/car-rental/factor/design.svg",
+            "decs": "The RFID attendance is linked with the Student Information System which automatically sends SMS alerts regarding the student attendance to faculty & teachers. It notifies the student’s chronic absenteeism. Also, it tracks the entry & exit time of each student in the classroom. It further notifies if the student or staff enters into restricted areas of the campus."
+        },
+        {
+            "title": "Third-Party Integrations",
+            "img": "/images/expertise/e-commerce/factors/third-party-integrations.svg",
+            "decs": "The system generates daily attendance register reports, daily attendance reports, and monthly/yearly attendance calculation reports to the administration and management staff. This helps in keeping a detailed track of a student's presence in each lecture. Also, it offers error-free AI-powered dashboards with graphical outputs which further simplifies managing student attendance."
+        },
+        {
+            "title": "Security And Compliance",
+            "img": "/images/expertise/e-commerce/factors/security-compliance.svg",
+            "decs": "An automated RFID attendance system considerably reduces paperwork of marking student’s attendance, thereby boosts efficiency & productivity. It saves time, efforts, and resources to manage student attendance & records. No roll calls are required thus saving the teacher additional effort of manually taking attendance for each lecture. With this process, more time is dedicated for teaching in the classroom."
+        },
+        {
+            "title": "Advanced Technologies",
+            "img": "/images/expertise/car-rental/factor/support-maintenance.svg",
+            "decs": "As RFID is installed almost everywhere in the campus, the student is tracked everywhere, including classrooms, library, hostel, labs, canteen, gym, mess, etc. If they are entering a restricted area without permission, their activity is monitored and a warning can be issued to them for breaking the rules. If a student leaves the campus early, both parents and teachers are informed immediately."
+        }
+    ],
+    "usedFor": [
+        {
+            "title": "Smart Student Attendance Tracking",
+            "decs": "With the use of automated tools, this system makes it easy for the administration to track class-wise daily attendance.",
+            "decs2": ""
+        },
+        {
+            "title": "Staff & Faculty Attendance Monitoring",
+            "decs": "The system lets you track all the come-in/out patterns with regular attendance tracking. ",
+            "decs2": ""
+        },
+        {
+            "title": "Real-Time Reports & Notifications",
+            "decs": "All kinds of student attendance reports, including absence ratio, defaulter lists, and late-entry records, are easy to send to parents with just a few clicks. ",
+            "decs2": ""
+        },
+        {
+            "title": "Event Attendance Tracking",
+            "decs": "This system enables schools to set up a module for tracking attendance at events, whether it's a farewell party or a student’s empowerment plan. ",
+            "decs2": ""
+        },
+        {
+            "title": "Multi-Location Institution Attendance Sync",
+            "decs": "This system also helps institutes get real-time detailed insights into their multi-branch schools or educational systems.",
+            "decs2": ""
+        }
+    ],
+    "needFor": [
+        {
+            "title": "Accuracy Without Extra Effort",
+            "decs": "An AMS really offers detailed and accurate data on attendance-related tasks. Where manual registers are full of errors, an AMS offers accurate data that is error-free and effortless to handle."
+        },
+        {
+            "title": "Save Time For Educators & Admins",
+            "decs": "Teachers are free now from investing their precious time and energy in roll calls which is now a task of some clicks for them. Further, admins are also able to generate reports in seconds, now."
+        },
+        {
+            "title": "Keep Parents in the Loop",
+            "decs": "With the help of automated alerts via SMS, email, or mobile apps, you can always keep parents informed whether the student is absent, late, or leaves early."
+        },
+        {
+            "title": "Encourage Discipline",
+            "decs": "When teachers and staff really know that each step is purely under consideration, they push themselves to be a discipline freak who always manages everything."
+        },
+        {
+            "title": "Go Paperless & Eco-Friendly",
+            "decs": "The biggest benefit of accepting this system is it's eco-friendly while impacts on administration pockets very positively."
+        }
+    ],
+    "faqDataOne": [
+        {
+            "title": "How does a Smart Attendance System handle fraudulent attendance attempts?",
+            "desc": "It is because this system uses biometric or facial recognition technology, which is not so easy to fake. Further, practices like GPS and time-stamp logging make it hard to fake attendance from direct mobile phones. These approaches really help systems to stay hard against unauthorized logins."
+        },
+        
+        {
+          "title": "Does the system let schools comply with government or board-level attendance regulations?",
+          "desc": "Yes, while designing this system, we take every small step into consideration. With automated reporting and audit-ready logs, we let these apps stay compliant with all the government or board-level attendance regulations."
+        },
+        
+        {
+            "title": "Can parents access attendance records in real time?",
+            "desc": "Yes, parents can do so, but only with their role-based access. Nobody is allowed to enter everywhere. Everyone has limitations according to their role in the institute. So, according to this role, parents can access the attendance data of just their children, not the data of all students."
+        },
+        {
+            "title": "How does AMS support faculty and teacher performance monitoring?",
+            "desc": "Initially, it offers teachers extra time and energy while giving them a detailed look in the form of reports with bar graphs, letting them understand everything about students' punctuality and behaving patterns. This collectively helps them in understanding the student's learning attitude that always promotes growth. "
+        },
+        {
+            "title": "Does the system work in offline mode or without internet connectivity?",
+            "desc": "Yeah, the system stays as effective as in the presence of the internet and supports offline attendance recording. The data is stored in the system, and when the internet becomes available, it syncs automatically to be part of the data available on the internet."
+          }
+    ],
+    "faqDataTwo": [
+        {
+            "title": "What are the technologies that are used in your Smart Attendance Management System?",
+            "desc": "RFID cards, biometric scanners and facial recognition cameras are common usable technologies, while QR code scanners and GPS-based mobile tracking are top technologies included in our system. "
+          },
+          {
+            "title": "Can this system generate all kinds of attendance-related reports and analytics?",
+            "desc": "The system is entirely dedicated to school attendance-related operations and plays a vital role in automating most of the tasks. Generating reports and analytics is also one of these tasks that becomes effortless just due to the entry of this system in the market. "
+          },
+        {
+            "title": "How secure is the student data stored in an AMS?",
+            "desc": "We never make compromises on data security because it is the most important asset of educational institutes. With the integration of functionalities like role-based access control, SSL encryption, cloud-based backup, and GDPR-compliant data protection policies, we make our AMS highly secure."
+        },
+        {
+            "title": "Is the AMS useful for hybrid or online learning environments?",
+            "desc": "Of course, these AMS are built to meet modern needs in which being compatible with hybrid classes is one of the main priorities. Students can mark their attendance using geo-tagged check-ins, QR codes, or time-stamped login systems when there are no physical classes are attempted."
+        },
+        {
+            "title": "How to Implement an Attendance Management System (AMS)?",
+            "desc": "It takes some extra effort to implement an attendance management system in which you have to implement all modules for impactful daily to project-wise attendance tracking. This implementation process will start from identifying your attendance monitoring needs to get a finalized impactful AMS which makes things effortless for you. The most prominent thing to consider during this process is to choose a trusted AMS provider that offers scaleable solutions with customized offers."
+        }
+      
+     
+    ],
+    "innerBenefits": [
+        {
+            "title": "Professionals",
+            "value": "70+",
+            "description": "70 Qualified Professionals and expert designers to start planning and executing your project"
+        },
+        {
+            "title": "Projects Delivered",
+            "value": "150+",
+            "description": "Successfully delivered over 150 high-performing applications across industries."
+        },
+        {
+            "title": "Client Satisfaction",
+            "value": "100%",
+            "description": "Ensuring complete satisfaction with robust support and reliable delivery."
+        },
+        {
+            "title": "Years of Experience",
+            "value": "10+",
+            "description": "Decade of experience building scalable, secure, and user-friendly apps."
+        }
+    ],
+    "rummySection": {
+        "features": [
+            "Product Designed by a Team of rummy experts",
+            "Associated with Rummy software development for years",
+            "Solutions that work on all platforms such as Web, iOS, and Android",
+            "Cost-effective and time-saving gaming solutions",
+            "Powerful and secure coding",
+            "Quick & On-time delivery",
+            "Free business & marketing guidance for new",
+            "24*7 technical support with quick response."
+        ],
+        "buttonText": "REQUEST A QUOTE"
+    },
+    "features": [
+        {
+            "id": 1,
+            "title": "Smart Attendance Tracking (Real-Time & Subject-Wise)",
+            "description": "The primary and most important feature of this system is managing attendance in a smart way to reduce paperwork and the management of bulky registers. By using smart approaches like biometric fingerprint scanners, RFID cards, QR code scanning, or facial recognition, this system streamlines attendance operations. Management for subject-wise attendance is also one of the prominent features of this system. To reduce manual errors like missed entries and proxy attendance, this system uses advanced approaches.",
+            "image": "/images/attendance-management/features/smart-attendance-tracking.webp"
+        },
+        {
+            "id": 2,
+            "title": "In-Depth Attendance Analytics & Reports",
+            "description": "Generation of attendance reports is also now a process of just a few clicks for schools, all thanks to this system. These reports are visually understandable, which makes them comparative. All data ranging from daily to yearly is accessible with the system, while accessing student-wise reports is also an average task, now. Further, percentage-based auto-calculations of absences for eligibility to stay in school are also a smart addition to this system. All these reports are accessible in the form of bar graphs, heat maps and downloadable Excel/PDF files, which make this system even more efficient.",
+            "image": "/images/attendance-management/features/attendance-report.webp"
+        },
+        {
+            "id": 3,
+            "title": "Attendance Management for Faculty & Staff",
+            "description": "This system is precisely designed for adjusting the attendance operations, whether it is about students or staff. It’s a specific module that is perfectly designed for non-teaching and faculty staff let us track and manage their attendance. This module offers everything about clock-in/clock-out times, while data about leaves and half leaves of staff is also accessible with this tool. The integration of this module into all systems helps administration in payroll operations like salary calculations.  Through automated calculation of all salary on based on staff attendance, this module really helps large institutes.",
+            "image": "/images/attendance-management/features/attendance-management.webp"
+        },
+        {
+            "id": 4,
+            "title": "Anytime-Anywhere Access via Web & Mobile",
+            "description": "The real-time accessibility of this system is one of the prominent features that keep everyone aware of real-time happenings. Rather than admins and teachers, parents also have the authority to access the database and check the real-time attendance status of their children. For teachers, this module is a game changer, and they can track attendance even on the go due to its seamless accessibility. When we count students, they can just open their attendance sheets and check their eligibility to apply for a leave. In the form of this accessible module, we really bring transparent access to the attendance database to each stakeholder.",
+            "image": "/images/attendance-management/features/anytime-anywhere-access.webp"
+        },
+        {
+            "id": 5,
+            "title": "Real-Time Notifications to Parents & Admins",
+            "description": "To maintain enhanced transparency, this module has the next-gen attendance database sharing feature. Specifically, parents who really care too much about their children will now get instant notifications about whether their children are attending class or missing it. This is really a cool approach to this system to encourage students to register the highest possible accountability while keeping parents aware of every small happening. In additional functionalities of this module, notifications sending for low attendance warnings, departmental absence and late arrival summaries are all available.",
+            "image": "/images/attendance-management/features/notifications.webp"
+        },
+        {
+            "id": 6,
+            "title": "Hardware Integration Across Devices",
+            "description": "We make our system highly compatible with a wide range of attendance-tracking tools. This helps in upgrading the system by integrating modern technologies like RFID-based smart ID cards, biometric devices and AI-based facial recognition cameras. In further integrations, GPS-based attendance for field activities and the use of personal phones or school tablets to mark attendance remotely or within the classroom via secure login are also possible with this system. No need for costly adjustments; you can start the process by just integrating used items like cameras and existing biometric/RFID devices.",
+            "image": "/images/attendance-management/features/hardware-integrations.webp"
+        }
+    ],
+    "Choose": [
+        {
+            "title": "Developed By Us",
+            "description": "We are a reputed name in school automation and ed-tech space all over India due to delivering scalable and secure digital solutions.",
+            "icon": "/images/attendance-management/why-choose/developed-by-us.svg",
+            "span":false
+        },
+        {
+            "title": "Full Control",
+            "description": "By offering full control over daily attendance tracking, compliance reporting, and communication, we have empowered schools, colleges, and universities for years.",
+            "icon": "/images/attendance-management/why-choose/full-control.svg",
+            "span":false
+        },
+        {
+            "title": "Innovative Interface",
+            "description": "End-to-end automation blending with advanced analytics and a user-centric interface are all features of our systems that set them apart from average systems. ",
+            "icon": "/images/attendance-management/why-choose/innovative-interface.svg",
+            "highlight": true
+        },
+        {
+            "title": "Smart Integrations ",
+            "description": "With the integration of biometric devices, RFID, and facial recognition tools, we offer smart attendance management systems to schools that make all operations effortless and seamless.",
+            "icon": "/images/attendance-management/why-choose/smart-integration.svg",
+            "span":true
+        }
+    ],
+    "benefits": [
+        {
+            "title": "Streamlined Attendance Process",
+            "img": "/images/attendance-management/benefits/streamlined-attendance.svg",
+            "desc": "",
+            "items": [
+              "Integration of automated tools lets schools handle things better than humans",
+              "Managing attendance in seconds via biometric, RFID, or facial recognition",
+              "Reducing laborious manual roll calls",
+              "Lowering possibilities of fraudulent attendance",
+              "Recording attendance in both online and offline environments",
+              "Supports attendance marking for extracurricular activities and events",
+              "Cloud integration makes it easy to take attendance from any device, anywhere on campus",
+              "Promotes digital discipline among students with transparent tracking"
+            ]
+          },
+        {
+          "title": "Centralized Attendance Data",
+          "img": "/images/attendance-management/benefits/centralized-attendance.svg",
+          "decs": "",
+          "items": [
+            "Centralized dashboard makes all data regarding attendance accessible",
+            "Retaining a united dashboard for students, staff, and admin",
+            "Saving real-time attendance records with nil repetition",
+            "Simplifying class-wise, subject-wise, and date-wise tracking",
+            "Guaranteeing constant reporting across departments",
+            "Generates defaulter lists automatically for administrative actions or parent alerts",
+            "Based on staff attendance, it offers payroll for accurate salary deductions",
+            "Automated data entry reduces dependency on clerical staff for manual data entry"
+          ]
+        },
+        {
+          "title": "Saves Time and Administrative Effort",
+          "img": "/images/attendance-management/benefits/administrative-effort.svg",
+          "decs": "",
+          "items": [
+            "Immediate recording and saving of attendance data in a cloud-based system",
+            "Data of all classes or campuses is accessible for school heads and admins",
+            "Time savings for teachers during every lecture or session",
+            "Easy report generation that makes things easy for administrations ",
+            "Auto-synced data with timetables, holidays, and special schedules",
+            "Historical records for any student or staff are accessible within seconds with this system",
+            "Through the attendance reports sharing feature, it is easy for parents to access real-time stats",
+            "Keep data secure that is encrypted and user-level access control for data privacy"
+            
+          ]
+        }
+      ]  
+}

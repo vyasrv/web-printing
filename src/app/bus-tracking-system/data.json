@@ -1,0 +1,208 @@
+{
+    "features": [
+    {
+      "id": 1,
+      "title": "Real-Time GPS Vehicle Tracking",
+      "description": "The integration of advanced GPS in every bus lets admins and authorized entities access the real-time locations. Detailed visibility on digital maps keeps them aware of each activity of buses, whether it is unexpected stops or traffic delays. Further, this addition lets institutes keep an eye on unethical activities like detours, over-speeding, and unauthorized halts. Whether it's a single vehicle or an entire fleet, school administrators can track their movement second by second. Despite them, there are some innovative features are also available in which the conclusion of estimated arrival times, distance covered, and expected drop-off times are included.",
+      "image": "/images/bus-tracking-system/features/gps-vehicle-tracking.webp"
+    },
+    {
+      "id": 2,
+      "title": "RFID Student Check-In And Check-Out",
+      "description": "Every student owns an RFID tag, which makes it easy to handle the check-in and check-out data of students. This way, it ensures precise tracking of every student’s journey and keeps both the institute and parents aware through continuous notifications. The same thing, when done by humans, causes manual errors, which leads to fatal conditions like the loss of children due to improper counting. However, this data is also valuable for auditing, incident reporting, and confirming safe travel. ",
+      "image": "/images/bus-tracking-system/features/rfid-student.webp"
+    },
+    {
+      "id": 3,
+      "title": "Geofencing Alerts",
+      "description": "With geofencing integration, institute administration can set boundaries for buses to prevent unauthorized route choices. When a bus enters restricted areas like school premises and student neighbourhoods, the system automatically notifies the responsible people and lets them take prevention steps. This detecting deviations or suspicious activity collectively helps schools manage students' safety and ensures their safe home & school arrivals. To make it even safer, enhancing operational control is also possible for admins by setting alerts if a bus arrives at school too early, too late, or outside approved hours.",
+      "image": "/images/bus-tracking-system/features/geofencing-alerts.webp"
+    },
+    {
+      "id": 4,
+      "title": "Role-Based Access With Tiered Permissions",
+      "description": "Offering transparency is OK but giving the database into the hands of every stakeholder is not a responsible step. That is why the administration has the authority to offer role-based access to everyone. Transport managers, drivers, school admins, and parents all have separate dashboards that let them see data just according to their responsibilities. Multi-level access permissions and encryption protocols make the platform robust and prevent data breaches while ensuring that sensitive data is viewed only by authorized personnel also fall under its responsibility. ",
+      "image": "/images/bus-tracking-system/features/tiered-permissions.webp"
+    },
+    {
+      "id": 5,
+      "title": "Vehicle Health And Maintenance Scheduler",
+      "description": "As vehicle health guarantees safer travels, this system also has an inbuilt vehicle health and maintenance scheduler. This proactive vehicle management encourages you to keep your fleet in top condition. Scheduling maintenance cycles, setting reminders for vehicle servicing, monitoring fuel efficiency, and tracking wear and tear of critical parts are all the main features of the system that make it easy for you to keep maintenance patterns in mind. Accessing data regarding past maintenance, insurance expiry, and emission checks is also possible with this system, which helps institutes to have transportation compliant with transport laws.",
+      "image": "/images/bus-tracking-system/features/vehicle-health-and-maintainance.webp"
+    },
+    {
+      "id": 6,
+      "title": "Route Optimization And Planning",
+      "description": "Smart route optimization is causing the death of traditional, inefficient, and manually mapped routes. On the basis of the quote, “Modern problems require modern solutions”, we add intelligent algorithms that optimize routes based on real-time factors like traffic conditions, road closures, and student pickup density. Further, admins also have the authority to modify or create new routes to assign drivers that help in escaping through any inconvenient situations. Further, this system helps reduce chaos that is caused due to last-minute delays, which helps in making all the stakeholders punctual. ",
+      "image": "/images/bus-tracking-system/features/route-optimization-planning.webp"
+    }
+    ],
+    "usedFor": [
+    {
+    "title": "Transport Analytics & Reporting",
+    "decs": "All the data, including the generation of detailed reports on bus usage, driver performance and fuel efficiency, is accessible at one spot for administration. ",
+    "decs2":""      
+    },
+    {
+    "title": "Driver Behavior Monitoring",
+    "decs": "By monitoring some happenings such as speed, harsh braking, idling time, and route compliance, the system helps institute in maintain safety standards.",
+    "decs2":""      
+    },
+    {
+        "title": "Safety Alerts",
+        "decs": "In the scenario of any unsatisfied condition like a bus deviation from the planned route and exceeding speed limits, the safety alerts let admins make proactive decisions.",
+        "decs2":""      
+    },
+    {
+        "title": "Parent Notifications",
+        "decs": "Parents get all information through notifications like journey initiation, near pickup/drop points, and delayed scenarios that manage transparency and enhance trust.",
+        "decs2":""      
+    },
+    {
+        "title": "Route Planning",
+        "decs": "With the use of AI analytical strength, this system gives a perfect route on the basis of real-time traffic data, student addresses, and real-time weather conditions." ,
+        "decs2":""     
+    }
+    ],
+    "needFor": [
+    {
+    "title": "Improves Student Safety",
+    "decs": "With RFID check-ins, GPS tracking, and geofencing like best practices, this system develops a strong protective shield around students all day. "
+    },
+    {
+    "title": "Reduces Admins Burdens",
+    "decs": "With continuous but automated notifications to parents, the system keeps parents aware of each happening without the involvement of admins."
+    },
+    {
+    "title": "Optimized Routes",
+    "decs": "In sudden conditions like the absence of any student or a change in weather or traffic conditions, this system uses its analytical power to suggest the best possible routes. "
+    },
+    {
+    "title": "No Manual Errors and Paperwork",
+    "decs": "No need for spreadsheets and personas to contribute to accountability like practices that lead to no manual errors or need to use paperwork."
+    },
+    {
+    "title": "Time Effective",
+    "decs": "With handling multiple repetitive operations that consume countable timespans of admins and staff, this system saves time that can be used for other strategic planning. "
+    }
+    ],
+    "benefits": [
+        {
+          "title": "Streamlined Transportation Operations",
+          "img": "/images/bus-tracking-system/benefits/Streamlined-Transportation-Operations.svg",
+          "decs": "",
+          "items": [
+            "Real-time monitoring of all live buses reduces delays and confusion",
+            "Parents don’t need to call for every small query because of getting automated notifications",
+            "AI-powered analytical tools help in getting out of quick Incident conditions proactively",
+            "This leads to fast pick/drop due to reduces in unnecessary stops and late arrivals",
+            "Eliminate paperwork hassles with RFID and automation integration",
+            "Geo-fence-based arrival alerts keep aware of bus entry and exit",
+            "Real-time app notifications save time and reduce parent panic",
+            "Offers a detailed overview of the buses that are using more than normal fuel"
+    
+          ]
+        },
+        {
+          "title": "Centralized Transport Data",
+          "img": "/images/bus-tracking-system/benefits/Centralized-Transport-Data.svg",
+          "decs": "",
+          "items": [
+            "Give admins access to all routes, vehicles, and drivers in one interface",
+            "Cloud storage prevents data loss and offers complete backups and accessibility",
+            "Make sure that you know what routes are working and which need changes",
+            "Maintain detailed logs, including license status, performance, and complaints",
+            "Instantly generate reports for transport audit needs",
+            "Data through all panels, including admin, parent, and driver syncable",
+            "Role-based access ensures only authorized users to access and use data",
+            "Keep servicing and maintenance logs in one place"
+          ]
+        },
+        {
+          "title": " Saves Time and Administrative Effort",
+          "img": "/images/bus-tracking-system/benefits/Saves-Time-Administrative-Effort_1.svg",
+          "decs": "",
+          "items": [
+            "AI integration helps in the creation of daily, weekly, or custom reports",
+            "Mobile responsiveness makes every data accessible from anywhere",
+            "Helps by suggesting the use of commonly used bus routes",
+            "Add student data easily via CSV uploads",
+            "Support for multiple languages helps all users operate smoothly",
+            "Easy UI and smart automation mean faster onboarding",
+            "Assign duties to drivers, admins, or managers easily",
+            "Parents, through consistent notifications, remain in touch with each happening"
+          ]
+        }
+      ],
+      "Choose": [
+        {
+            "title": "End-To-End Security",
+            "description": "With advanced features like encrypted data storage, secure logins, and multi-user role authentication, we offer you the most secure school bus tracking system. ",
+            "icon": "/images/bus-tracking-system/why-choose/End-To-End Security.svg",
+            "span":false
+        },
+        {
+            "title": "Mobile App Integration",
+            "description": "Whether you have an iOS or Android, we make it easy for you to handle all happenings through your comfort zone. ",
+            "icon": "/images/bus-tracking-system/why-choose/Mobile-App-Integration.svg",
+            "span":false
+        },
+        {
+            "title": "Cost-Efficiency",
+            "description": "With using the AI analytical power, the system offers you the best possible and cost-effective route on the basis of real-time data. ",
+            "icon": "/images/bus-tracking-system/why-choose/Cost-Efficiency.svg",
+            "highlight": true
+        },
+        {
+            "title": "Scalable For Any Size",
+            "description": "With a variety of features, we make this system customizable, making it perfect for businesses of every size. ",
+            "icon": "/images/bus-tracking-system/why-choose/Scalable-For-Any-Size.svg",
+            "span":true
+        }
+    ],
+      "faqDataOne": [
+        {
+            "title": " Do drivers and school staff require special training to use the system?",
+            "desc": "Not at all. This system is easy to use that is due to its clean interface, which makes data navigation smoother. Further, we will give them a step-by-step guide to using the system that will let them feel confident while using it. "
+        },
+        {
+            "title": "How does the system improve student safety?",
+            "desc": "With the integration of modern technologies, including RFID and GPS, the system gives the institute access to real-time authentic data. Further geofencing also plays a crucial role is terms of securing students through restricting car drivers from involving in unauthorized regions access. "
+        },
+        {
+            "title": "Is it possible for parents to track the school bus live on their phones?",
+            "desc": "Of course, parents can access all details through their mobile phones. Accessing bus locations on a live map and getting ETA updates makes things transparency for them. Further, receiving constant notifications also keeps them aware of pickup or drop-off points."
+        },
+        {
+            "title": "Does this system work effectively for every kind of vehicle?",
+            "desc": "Yes, there are no restrictions for this system about vehicle size and type. It is customizable and you can scale it according to your specific needs. "
+        },
+        {
+            "title": "How does this system manage emergencies or breakdowns?",
+            "desc": "With the help of automated alerts sending features to the admins or bus owners in any sudden breakdown, the system alerts them for proactive reactions. This way, we handle emergencies and never make any compromise on the safety of children."
+        }
+    ],
+    "faqDataTwo": [
+        {
+        "title": "Is the integration of the system with an existing school management software possible?",
+        "desc": "This system is designed for flexibility and promotes integration through smooth data flow with diverse management systems, including attendance management, student records, or communication modules. "
+        },
+        {
+            "title": "How can you justify the security of the data collected by the system?",
+            "desc": "The system is based on a secure Cloudflare system, which makes data secure. Further, practices like role-based access also play a vital role in restricting the data to become accessible for non-authoritative people. "
+        },
+        {
+            "title": "Does the system support route planning and optimization?",
+            "desc": "Yes, an inbuilt AI system is specifically added for route optimization. It analyzes the real-time factors in which the absence of students, traffic changes and weather conditions are involved and suggests a suitable and cost-effective route as an output. "
+        },
+        {
+            "title": "Does the system allow us to generate fuel consumption reports?",
+            "desc": "Yes, these kinds of reports are easy to access with this system. In addition, it also supports many other operations, including student attendance, driver behavior, trip history and vehicle usage. "
+        }
+        ,
+        {
+            "title": "How long does it take to implement the system?",
+            "desc": "It takes 1 to 2 weeks for small-to-mid-sized schools while an enterprise level school can take more than a month. The positive thing here is that we personally take pride in offering everything from setup and training to deployment and support."
+        }
+    ]   
+    }

@@ -1,0 +1,210 @@
+{
+"features": [
+{
+  "id": 1,
+  "title": "Customizable Admission Forms",
+  "description": "Admission forms are something that is a must-have for admission operations. The next hassle enters when you have to create an institute-oriented admission form, but with this system, this hassle is no more. With options to add custom fields, dropdowns, document requirements, and eligibility conditions, it allows institutions to create dynamic and specific admission forms. It also encourages admins to take big initiatives by setting validation rules and conditional fields to make a big filter in requests and keep non-eligible entities away from the other operations at the initial stage of the admission process.",
+  "image": "/images/online-admission-system/features/admission-forms.webp"
+},
+{
+  "id": 2,
+  "title": "Multi-Level Application Review",
+  "description": "Administrators assign roles to staff to make the admission process efficient and error-free. These roles are assigned on the basis of different capabilities like document verification, eligibility checks, and approval hierarchies. This way, every report undergoes a detailed and trackable review cycle that makes it easy and streamlined to finalize the result of admission applications. Here, all the staff reviewers to the registrar check the documents as per their role and approve or reject the forms on the basis of their symmetry with eligibility criteria. Further, this helps in reducing confusion and increasing accountability across the board.",
+  "image": "/images/online-admission-system/features/multi-level-review.webp"
+},
+{
+  "id": 3,
+  "title": "Dashboard & Analytics",
+  "description": "The system offers a detailed centralized dashboard where admins can access all kinds of data. Managing pending reviews, course-wise breakdowns, fee collection and source of applicants all undergo the functionalities of the system. With this dashboard, filtering data by course, batch, campus, or application stage is also possible, which is also inspectable more deeply. All this system helps admins in improving overall admission strategy while it is also possible to export reports in PDF/Excel formats for weekly meetings, audits, or regulatory compliance purposes.",
+  "image": "/images/online-admission-system/features/dashboard-analytics.webp"
+},
+{
+  "id": 4,
+  "title": "Integrated Payment Gateway",
+  "description": "With the use of modern tactics, we ensure the integration of reputed payment gateways into this system, which solves the problem of offering secure and real-time fee collection. Through this system, users can pay in multiple currencies while it also supports almost all payment modes, including debit/credit cards, UPI, net banking, and wallets, which let everybody pay with ease. Further, real-time receipt generation and acknowledgment of payment through SMS alerts keep admins aware of incoming payments, which collectively give them a detailed overview regarding finance tracking during the admission operations.",
+  "image": "/images/online-admission-system/features/payment-gateway.webp"
+},
+{
+  "id": 5,
+  "title": "Role-Based Access Control",
+  "description": "To make data privacy strong, admins have the authority to restrict stakeholder's access to the information by setting some rules. This way, we ensure complete control over who can access what through fine-grained role-based permissions that collectively support data integrity from unauthorized access. Additionally, activity log tracking, through the help of automated tools, also plays a vital role in detecting suspicious behavior to keep non-trusted away from your system, prevent data breaches and promote security, accountability, and operational clarity across departments.",
+  "image": "/images/online-admission-system/features/role-based-control.webp"
+},
+{
+  "id": 6,
+  "title": "Automated Email & SMS Notifications",
+  "description": "The traditional admission operations let everybody remain stuck in communication delays, but those days are gone. Nowadays, the system lets you remain aware of everything happening, including application confirmation, pending document alerts, and interview scheduling through instant updates via email and SMS. The system also provides space for personal communication with the applicant’s name and application ID. Scheduling bulk notifications for announcements or seat confirmation deadlines are also helpful for seamless communication which also boosts the institution’s image as professional and responsive.",
+  "image": "/images/online-admission-system/features/automated-notifications.webp"
+}
+],
+
+"usedFor": [
+{
+"title": "End-To-End Student Enrollment",
+"decs": "This system manages the whole admission process efficiently, from form submissions to final seat allotment",
+"decs2":""      
+},
+{
+"title": "Online Fee Payment & Automated Receipts",
+"decs": "With the use of automation, the whole fee payment operation is effortless, while the use of modern security tactics makes the process secure.",
+"decs2":""      
+},
+{
+"title": "Document Upload and Digital Verification",
+"decs": "No physical files are required now to access the school’s database through this system because users can just share their digital IDs ((ID proof, photographs) to be verified.",
+"decs2":""      
+},
+{
+"title": "Communication & Status Updates",
+"decs": "The system keeps everybody aware of each happening, from application confirmation to admission decisions through SMS alerts.",
+"decs2":""      
+},
+{
+"title": "Data Analytics & Admission Reporting",
+"decs": "With detailed insights, institutes can analyze demographics, program popularity, and fee collection which helps in planning and policy-making." ,
+"decs2":""     
+}
+],
+
+"needFor": [
+{
+"title": "Simplifies Admission Workflows",
+"decs": "It helps schools manage complex admission hierarchies and makes workflows seamless, which really helps in ensuring smooth coordination between departments."
+},
+{
+"title": "Paperless Processing (Eco-Friendly)",
+"decs": "We modernize everything and keep it digitalized, whether it's about form submission or getting fee payment receipts, which is an eco-friendly and sustainable approach."
+},
+{
+"title": "Enables Remote Access",
+"decs": "When everything is digitalized, there is no need for physical visits. Students from different locations and cities can apply for admission from the comfort of their homes."
+},
+{
+"title": "Saves Time",
+"decs": "Undoubtedly, manual operations take a huge timespan, but this system is convenient and effortless, which makes operations faster. "
+},
+{
+"title": "Reduces Human Errors",
+"decs": "Humans make errors when facing boredom or a high burden when work is too much, but this system is free from manual errors and ensures accuracy and reliability."
+}
+],
+
+"benefits": [
+{
+  "title": "Streamlined Admission Process",
+  "img": "/images/online-admission-system/benefits/streamlined-admission-process.svg",
+  "decs": "",
+  "items": [
+    "Make repetitive easy to handle tasks that consume a high amount of time",
+    "All operations like scheduling, assigning, and managing admissions are now effortlessly",
+    "Offers personalized communication journeys based on applicant status",
+    "With almost no use of paper, it creates an eco-friendly admission approach",
+    "Supports multimedia document uploads and verification",
+    "Built-in calendar and real-time application tracking enhance transparency",
+    "Payment gateways, ID generation, and student portals like integrations are easy to handle",
+    "Hassle-free onboarding for new students and parents"
+]},
+{
+  "title": "Centralized Applicant Data",
+  "img": "/images/online-admission-system/benefits/centralized-applicant-data.svg",
+  "decs": "",
+  "items": [
+    "All the applicant data remain secure and accessible in one place",
+    "Provides detailed profiles for every applicant with regular alerts",
+    "Enables quick search, filtering, and sorting of candidates for convenience",
+    "Eliminates data duplication and manual errors with the use of smart AI models",
+    "Access control and role-based permissions for data security",
+    "Supports data export, backups, and audit trails",
+    "Easy to integrate with CRM, ERP, and other institutional systems",
+    "Students can add their info, uploaded documents,  and payment status to keep things smooth"
+    
+]},
+{
+  "title": "Saves Time and Administrative Effort",
+  "img": "/images/online-admission-system/benefits/saves-time-and-administrative-effort.svg",
+  "decs": "",
+  "items": [
+    "Through automating application approvals, status updates, and reminders",
+    "Reduces staff workload by 60-70% because admins don’t need to get into emails",
+    "Offers real-time dashboards for monitoring progress",
+    "Minimizes human errors and delays through guided workflows",
+    "Allows batch communication to hundreds of students in one go",
+    "Supports mobile accessibility for on-the-go operations",
+    "Cuts down in-person visits and phone call queries",
+    "Let admins handle everything with mobiles from their comfort zone "
+]}
+  ],
+
+"faqDataOne": [
+    {
+        "title": "Which educational institute is the most compatible with this system, school or college?",
+        "desc": "This system is specifically designed to serve K12 schools, but with time, integrations of modern technologies make it perfect for other kinds of educational institutes, including colleges and universities."
+    },
+    {
+        "title": "Is it possible to customize the admission process for different courses or departments?",
+        "desc": "Yeah, we always urge institutes to make adjustments to make admission workflow seamless and business-oriented."
+    },
+    {
+        "title": "Is it possible for students to apply through this system from their phones?",
+        "desc": "Yes, we cover the physical gap and let the student apply for their specific course by sharing their documents from the comfort of their home. With its mobile-responsive design, it is compatible with all smartphones."
+    },
+    {
+        "title": "Does the system support online payment integration?",
+        "desc": "We take pride that this system offers secure and reliable online payment options. Integration into the most reputed payment gateways mounts the trend to make digital payments in desired currencies."
+    },   
+    {
+        "title": "Is the receipt for our payment fetchable for us?",
+        "desc": "Yes. The automation tools automatically generate receipts for you, while SMS alerts also play their role and send you alerts with detailed information about receiving payments. "
+    }
+],
+
+"faqDataTwo": [
+    {
+        "title": "How can you ensure that student’s data in this system is entirely secure?",
+        "desc": "With features like SSL encryption, two-factor authentication (2FA), secure cloud hosting and compliance with privacy regulations like GDPR and FERPA, this system has numerous reasons to assure you that the data is protected against data breaches and unauthorized logins."
+    },
+    {
+        "title": "Is it possible to integrate the system with our existing student database or ERP?",
+        "desc": "This system is designed in such a way that it offers seamless integration of Student Information Systems (SIS), Learning Management Systems (LMS), and other ERP tools, which helps in syncing data across systems."
+    },
+    {
+        "title": "What kind of analytics and reports does the system offer?",
+        "desc": "From application status to admission funnel performance, all kinds of data reports are accessible through this dashboard. These reports are also downloadable and can be used for a variety of purposes. "
+    },
+    {
+        "title": "Is technical knowledge required to operate the backend dashboard?",
+        "desc": "No, it is very easy to handle all the systems. The homepage design is so responsive, and the layout is also simple. A person with a normal education can handle it with ease."
+    },
+    {
+        "title": "Does the system allow bulk communication with applicants?",
+        "desc": "Yes, there are options available through which communication with bulk applicants is possible. In scenarios like form incomplete reminders, document upload alerts and payment confirmations, it is so easy for admins to send alerts to whole batch/course students with one click."
+    } 
+],
+
+"Choose": [
+    {
+        "title": "Customizable Admission Workflow",
+        "description": "We don’t urge institutes to follow our given admission process but encourage them to make adjustments to make it compatible with their eligibility criteria.",
+        "icon": "/images/online-admission-system/why-choose/customizable-admission-workflow.svg",
+        "span":false
+    },
+    {
+        "title": "Scalable Architecture",
+        "description": "The system is designed to automatically (without compromising on performance or user experience) be scalable as per increase or decrease in applicant volume.",
+        "icon": "/images/online-admission-system/why-choose/scalable-architecture.svg",
+        "span":false
+    },
+    {
+        "title": "Enterprise-Level Data Security",
+        "description": "In this data-sensitive era, this system lets us maintain data integrity through using best practices like bank-grade encryption, SSL protection, firewalls, and two-factor authentication.",
+        "icon": "/images/online-admission-system/why-choose/enterprise-Level-data-security.svg",
+        "highlight": true
+    },
+    {
+        "title": "Advanced Reporting",
+        "description": "By bringing all kinds of data like the number of applicants per course/program, demographics of applicants and fee payment status, all are accessible through one dashboard.",
+        "icon": "/images/online-admission-system/why-choose/advanced-reporting.svg",
+        "span":true
+    }
+]  
+}

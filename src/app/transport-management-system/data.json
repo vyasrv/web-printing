@@ -1,0 +1,208 @@
+{
+    "features": [
+    {
+      "id": 1,
+      "title": "AI-Based Route Optimization",
+      "description": "No more hassle of manual route planning using spreadsheets and guesswork because the system uses AI and data analysis like student’s check-ins/check-outs to recommend the most optimal routes for every bus. Further, it analyzes many other factors, which include real-time traffic data, road closures and weather conditions that help in generating efficient routes that reduce fuel usage and travel duration. The most important thing regarding this system is that route optimization is not static. On the basis of real-time factors, including student absenteeism, new admissions, or road construction, it offers the best alternative routes.",
+      "image": "/images/transport-management-system/features/AI-Based-Route-Optimization.webp"
+    },
+    {
+      "id": 2,
+      "title": "Real-Time Parent Notification System",
+      "description": "During bad weather or traffic jams, the domains face a plethora of calls from parents that all happen due to their anxiety while waiting for the school bus. With notifications like SMS, email, or app alerts, this feature automatically keeps parents informed with live updates about pickup and drop timings, delays, and location alerts. Rather than average communication, it also handles emergency communication in case of accidents, breakdowns, or rerouting. This way, parents stay notified instantly with verified information, minimizing panic and ensuring transparency.",
+      "image": "/images/transport-management-system/features/Real-Time-Parent-Notification-System.webp"
+    },
+    {
+      "id": 3,
+      "title": "Driver Behavior & Safety Monitoring",
+      "description": "We think beyond and ensure bus safety not just by tracking its live location but by analyzing how it is being driven. By tracking key driver behaviours, including over-speeding, rapid acceleration, sharp turns, long idling, and sudden braking, we let the administration maintain high standards of professionalism. In advanced analytics, dashboards highlight patterns, send instant alerts for unsafe actions, and create driver profiles with performance scores that collectively help in reducing accidents, enhancing fuel efficiency, and building a culture of safety. Integration of dashcams or black boxes let's schools collect proof during disputes or emergencies.",
+      "image": "/images/transport-management-system/features/Driver-Behavior-Safety-Monitoring.webp"
+    },
+    {
+      "id": 4,
+      "title": "Live GPS Bus Tracking",
+      "description": "Not losing the visibility of vehicles is the most important factor in this system, which exactly this system offers. This lets admins monitor the live location of every bus in their fleet with pinpoint accuracy, while parents can see bus movements on digital maps. Integration of geofencing technology makes this security layer more strong by sharing quick alerts whenever a bus enters or leaves predefined zones like school boundaries, residential areas, or pickup points. Further, its integration with ETA predictions also allows better trip planning, reduced waiting times, and fewer communication hassles.",
+      "image": "/images/transport-management-system/features/Live-GPS-Bus-Tracking.webp"
+    },
+    {
+      "id": 5,
+      "title": "Fleet Maintenance Management",
+      "description": "Just fuel refills and clean-ups are not the real meaning of fleet management. The system includes a comprehensive vehicle maintenance scheduler that tracks every bus’s servicing timeline, part replacement history, pollution checks, insurance renewals, and driver documents. To prevent last-minute rushes and costly penalties, the system makes staff active by sending automated alerts that remind them of upcoming deadlines. Further, predictive maintenance and smarter budgeting are also possible through detailed performance analytical reports, which collectively have a longer vehicle lifespan and increased reliability.",
+      "image": "/images/transport-management-system/features/Fleet-Maintenance-Management.webp"
+    },
+    {
+      "id": 6,
+      "title": "Transport Fee Automation",  
+      "description": "Fee processes are a little complex because every student has a different distance, pickup zone, or service type, but this system, based on automated tools, generates invoices for custom transport charges. These can be reviewed, edited, or approved by admins before sending to parents. Paying through UPI, debit/credit cards, net banking, or digital wallets is all possible with this system, which offers an extra layer of comfort for every stakeholder, especially for parents. The system also tracks paid, pending, and overdue payments with automated reminders, receipts, and reconciliation reports",
+      "image": "/images/transport-management-system/features/Transport-Fee-Automation.webp"
+    }
+    ],
+    "usedFor": [
+    {
+    "title": "Real-Time Bus Tracking",
+    "decs": "With live tracking capabilities, the system helps school administrators and parents monitor the bus's exact location, estimated arrival time, and route deviations instantly.",
+    "decs2":""      
+    },
+    {
+    "title": "Route Planning & Optimization",
+    "decs": "On the basis of student pick-points, traffic data, and real-time conditions, it automates the process of creating the most efficient routes.",
+    "decs2":""      
+    },
+    {
+        "title": "Parent Communication",
+        "decs": "It maintains transparency between the institute and parents by sending automated alerts regarding bus departures, arrivals, delays, or route changes.",
+        "decs2":""      
+    },
+    {
+        "title": "Driver & Staff Management",
+        "decs": "Administrators can track driver’s behaviour by keeping a keen eye on speeding incidents, harsh braking and long idling times.",
+        "decs2":""      
+    },
+    {
+        "title": "Transport Fee Collection",
+        "decs": "By automating billing based on route and distance, our service provides reminders and payment receipts to parents via digital platforms." ,
+        "decs2":""     
+    }
+    ],
+    "needFor": [
+    {
+    "title": "Improved Student Safety",
+    "decs": "Features like geo-fencing, emergency alerts, and driver behavior tracking offer enhanced security for students. "
+    },
+    {
+    "title": "Reduced Administrative Burden",
+    "decs": "By automating multiple operations, from route planning to maintenance tracking, this system saves valuable hours for your administrative team."
+    },
+    {
+    "title": "Optimized Route Management",
+    "decs": "By using advanced route optimization algorithms, it offers the shortest and safest routes that are also cost-effective due to optimized fuel usage."
+    },
+    {
+    "title": "Driver Supervision",
+    "decs": "With the help of driver analytics tools that help in understanding aspects like speed, idle time, route adherence, and punctuality, it offers effective driver supervision."
+    },
+    {
+    "title": "Transport Fee Management",
+    "decs": "Parents can pay online through integrated payment gateways that avoid errors, delays, and inconsistencies caused by the manual fee collection process. "
+    }
+    ],
+    "benefits": [
+        {
+          "title": "Streamlined Transport Operations",
+          "img": "/images/transport-management-system/benefits/Streamlined-Transport-Operations.svg",
+          "decs": "",
+          "items": [
+            "Designs efficient routes and reduces travel time by utilizing AI algorithms",
+            "Automated driver and bus scheduling minimizing human errors",
+            "GPS integration allows for live tracking of buses, enhancing transparency",
+            "Facilitates instant communication with stakeholders in case of unforeseen events",
+            "Ensure fleet longevity with regular notifications for vehicle servicing",
+            "Analyzes driving patterns to promote safe driving practices",
+            "Stores all transport-related documents electronically, simplifying audits",
+            "Seamlessly connects with existing school management systems for unified operations"
+    
+          ]
+        },
+        {
+          "title": "Centralized Data Management",
+          "img": "/images/transport-management-system/benefits/Centralized-Data-Management.svg",
+          "decs": "",
+          "items": [
+            "Provides a comprehensive view of all transport activities",
+            "Maintains detailed records of students' transport usage",
+            "Stores information on driver credentials, performance, and schedules",
+            "Automates billing and payment processes, reducing manual error",
+            "Creates customizable reports for analysis and strategic planning.",
+            "Implements robust security measures to protect sensitive information",
+            "Maintains logs of all system activities for accountability and compliance.",
+            "Offers scalable and secure storage solutions for all transport data."
+          ]
+        },
+        {
+          "title": "Saves Time and Administrative Effort",
+          "img": "/images/transport-management-system/benefits/Saves-Time-Administrative-Effort.svg",
+          "decs": "",
+          "items": [
+            "Automates routine tasks, freeing up staff for more strategic roles",
+            "Facilitates instant messaging between school, parents, and drivers",
+            "Generates reports with a few clicks, eliminating manual compilation needs.",
+            "Automatically adjusts schedules based on real-time data",
+            "Enables swift identification and resolution of transport-related issues.",
+            "Improves collaboration among transport staff through shared platforms.",
+            "Monitors time spent on various tasks to identify areas for improvement",
+            "Uses data insights to refine processes and enhance efficiency"
+          ]
+        }
+      ],
+      "Choose": [
+        {
+            "title": "Tailored To School’s Needs",
+            "description": "The system is best at adapting and performing accordingly to the institute after understanding its different requirements based on size, number of routes, and transport infrastructure",
+            "icon": "/images/transport-management-system/why-choose/Tailored-School-Needs.svg",
+            "span":false
+        },
+        {
+            "title": "Enterprise-Grade Security",
+            "description": "Secure logins and multi-level user authentication reduce unauthorized access, while end-to-end encryption offers an extra security layer. ",
+            "icon": "/images/transport-management-system/why-choose/Enterprise-Grade-Security.svg",
+            "span":false
+        },
+        {
+            "title": "Data-Driven Insights",
+            "description": "By offering detailed insights in the form of analytical reports, the system allows the administration to make informed decisions for better transport performance. ",
+            "icon": "/images/transport-management-system/why-choose/Data-Driven-Insights.svg",
+            "highlight": true
+        },
+        {
+            "title": "Regular Updates (New Features)",
+            "description": "We believe in innovation, and that is why, like our developed other systems, this system also gets smarter day by day.",
+            "icon": "/images/transport-management-system/why-choose/Regular-Updates.svg",
+            "span":true
+        }
+    ],
+      "faqDataOne": [
+        {
+            "title": "How does GPS tracking work in this system?",
+            "desc": "With the integration of GPS-enabled devices installed in school buses, admins track the real-time location of the vehicle that is accessible on the cloud-based dashboard. This allows parents and school staff to monitor the live location of each bus and get notified in case of route deviations or emergencies."
+        },
+        {
+            "title": "Are the buses trackable through the mobile phones for parents?",
+            "desc": "Yes, the system is precisely designed with a mobile-first interface that makes it highly responsive to mobile devices. Through the mobile, parents can receive timely updates on pickup/drop locations, estimated time of arrival, delays due to traffic or weather, and notifications if a student fails to board."
+        },
+        {
+            "title": "Is this system only for large schools with big fleets?",
+            "desc": "Not at all. The system is scalable and designed for every size of school, whether it has some vans or detailed fleet management across multiple campuses. Further, customization options are also available that let admins scale it for future advanced needs. "
+        },
+        {
+            "title": "Does the system manage driver and vehicle records?",
+            "desc": "With handling drivers and other vehicle staff records, including their license validity, background checks, medical certificates, service history, and inspection records, this system manages vehicle records from diverse aspects. Setting automatic reminders for upcoming renewals or scheduled maintenance tasks also falls under its task assurance."
+        },
+        {
+            "title": "Can I customize routes and schedules in the system?",
+            "desc": "On the basis of real-time data and student locations, this system automatically creates and optimizes bus routes, but the system also supports the manual process if admins want to schedule pickups and drop-offs, set designated stops, allocate specific students to routes, and adjust timings according to their preferences. "
+        }
+    ],
+    "faqDataTwo": [
+        
+        {
+            "title": "How does the system handle emergencies or delays?",
+            "desc": "By sending instant alerts to both school administrators and parents, this system makes everybody aware about breakdowns, accidents, or route deviations. This lets admins and parents make informed decisions to ensure their children's safety. "
+        },
+        {
+            "title": "Will it integrate with our existing school ERP or attendance system?",
+            "desc": "Yes, our Transport Management System is built for easy integration. It seamlessly attached with each kind of system and ensures data consistency across platforms, and creates a centralized ecosystem for school operations."
+        },
+        {
+            "title": "How secure is the system for storing student and vehicle data?",
+            "desc": "All data regarding transport operations are stored in secure cloud storage, which is also a strong gateway encrypted with diverse security features that ensure data safety. Additionally, all user actions are logged for auditing, and backup systems ensure zero data loss even in emergencies."
+        }
+        ,{
+            "title": "Will your team offer training to our staff and drivers?",
+            "desc": "Our team offers a detailed hand-to-hand experience to your staff to make it seamless to use the system features. After training, they will be best in assigning route-based fees, generating invoices automatically, allowing parents to pay online, and sending instant payment notifications."
+        },
+        {
+            "title": "Does the data remain accessible in the unavailability of the internet?`",
+            "desc": "By storing data locally on the GPS device, we ensure no loss of data in no internet conditions. Once connectivity is restored, the data syncs with the central server, which ensures minimal disruption."
+        }
+    ]   
+    }

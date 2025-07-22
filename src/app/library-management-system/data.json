@@ -1,0 +1,208 @@
+{
+    "features": [
+    {
+      "id": 1,
+      "title": "Barcode & RFID Integration",
+      "description": "The integration of both barcode and RFID integration supports efficiency, which, after meeting with automation, becomes extra well. These are actually unique scannable codes that make it easy to check stakeholder's past history, which helps in instant book issuing and ensuring returns.  Further, it lets staff bulk-scan books during check-ins/checkouts, reducing queues and manual errors. Placement of antennas at entry and exit points detects movement of tagged books which offers automated and fast alerts in case of unauthorized removals. Shelving assistants can also use portable RFID readers to locate misplaced books quickly, improving shelving accuracy.",
+      "image": "/images/library-management-system/features/barcode-integration.webp"
+    },
+    {
+      "id": 2,
+      "title": "Smart Cataloguing",
+      "description": "Our system transforms the traditional process of cataloging into an innovative, intelligent process that makes locating and arranging books a piece of cake. It can be used with international classification standards such as Dewey Decimal Classification (DDC), Library of Congress Classification (LCC) and customized schemas that are tailored to the specific needs of your institution. With rich metadata, including author, title, subject area, publication year, edition, format, and availability status, this system makes each item in the collection automatically tagged. This structured approach also supports better archival of rare or research-oriented books.",
+      "image": "/images/library-management-system/features/smart-cataloguing.webp"
+    },
+    {
+      "id": 3,
+      "title": "Online Reservation & Renewal",
+      "description": "Through an online portal or app interface, students are now able to manage their own borrowing activities conveniently. They can reserve books in advance, check the waitlist, or renew borrowed items from any device without needing to visit the library physically. This portal of the system auto-locked the reserved books, and overdue items can be renewed based on library rules that minimize queues, improve book circulation, and ensure fair access to popular items. The reservation feature is especially valuable during high-demand periods like exams or project weeks, where students need assured access to key materials.",
+      "image": "/images/library-management-system/features/online-reservation.webp"
+    },
+    {
+      "id": 4,
+      "title": "Real-Time Book Availability Tracking",
+      "description": "Searching for a book that’s already issued or lost offers frustrating user experiences in a manual system, but this system eliminates that frustration by offering real-time visibility into book availability. Students just have to open their dashboards, where they can access every kind of data regarding books, whether it’s available, issued, reserved, or under repair. If the book is issued, the date of its return will be clearly visible on this dashboard, which makes reservations easier. Librarians can monitor circulation patterns daily, which reduces hoarding man displacement and improves the overall utilization of resources.",
+      "image": "/images/library-management-system/features/book-availiablity-tracking.webp"
+    },
+    {
+      "id": 5,
+      "title": "Fine Management System",
+      "description": "The system automates this process with precise fine calculation, rule-based triggers, and detailed logging. Librarians can define new rules that can be implemented automatically and added to the system. In case of not returning books on time, users will see real-time fine updates on their dashboard and receive alerts with payment instructions. Further, admins can review fine logs, waive penalties selectively, or set upper caps for minors or specific categories. All the data regarding fines is recorded digitally, which is exportable for audits, reducing disputes, eliminating cash handling, and maintaining financial transparency.",
+      "image": "/images/library-management-system/features/fine-management.webp"
+    },
+    {
+      "id": 6,
+      "title": "Member Management Dashboard",
+      "description": "This system tracks individual behavior, borrowing history, fines, reservations, and account status in real-time with the help of an integrated, robust user management module. With a unique digital profile, every user can check overdue items, blocked books, and notification logs, whether he is a student, faculty, or guest. Further, Librarians have the credibility to assign borrowing limits and issue privileges or penalties based on user category or past conduct. In a nutshell, this dashboard helps identify inactive users, top borrowers, or chronic defaulters, fosters accountability and promotes a healthy reading culture on campus.",
+      "image": "/images/library-management-system/features/member-management.webp"
+    }
+    ],
+    "usedFor": [
+    {
+    "title": "Book Lending & Returning",
+    "decs": "Due to barcodes or RFID tags, this system makes seamless to access users history with their past transections. It gives some clarity in issuing the book to the right individual. ",
+    "decs2":""      
+    },
+    {
+    "title": "Inventory Tracking",
+    "decs": "All the stats regarding library inventories are accessible for admins and librarians through a centralized portal, which reveals the availability of books in an effortless way. ",
+    "decs2":""      
+    },
+    {
+        "title": "Student Reading Reports",
+        "decs": "Accessing student's reading reports lets admins get clarity about their preferences and reading patterns, which helps teachers in their career counselling.",
+        "decs2":""      
+    },
+    {
+        "title": "Overdue Book Reminders",
+        "decs": "To ensure timely returns of books, this system has an inbuilt feature that automatically sends reminders to students that urge them to avoid late returns.",
+        "decs2":""      
+    },
+    {
+        "title": "Digital Book Logs",
+        "decs": "Maintains a time-stamped digital log of every action from book obtaining to issues, renewals, returns, and fines." ,
+        "decs2":""     
+    }
+    ],
+    "needFor": [
+    {
+    "title": "Paperless Operations",
+    "decs": "It lets the institute save every record, from issuing history to overdue fines digitally, that requires zero use of paperwork. This way, the system makes schools eco-friendly and cost-effective. "
+    },
+    {
+    "title": "Easy Access To Library Resources",
+    "decs": "With this system, the library catalog is accessible anywhere, anytime for all the stakeholders, including students, teachers, librarians and administration. "
+    },
+    {
+    "title": "Reduced Mismanagement",
+    "decs": "This system automatically sends alerts about a book that is overdue or missing to the administration and urges them to identify the responsible for this loss to recover the asset. "
+    },
+    {
+    "title": "Time-Saving",
+    "decs": "With RFID tags and barcodes, students can leave requests about owning a book, and librarians can handle this from their mobiles without the need for physical check-ins."
+    },
+    {
+    "title": "Scalable Across Campuses",
+    "decs": "With a centralized dashboard, the admins can control and track the libraries across different campuses from a single screen (no need to fluctuate tabs). "
+    }
+    ],
+    "benefits": [
+        {
+          "title": "Streamlined Library Operations",
+          "img": "/images/library-management-system/benefits/streamlined-library-operations.svg",
+          "decs": "",
+          "items": [
+            "Eliminate manual book logs that make operations faster and effortless",
+            "Fast book circulation with barcodes and RFID tags",
+            "Reduced staff workload due to the use of modern automated tools",
+            "Integrated fine and fee management system for smart dues management",
+            "Audit-friendly entries make data access easy for authorized people",
+            "Cloud-based access and backup promote data integrity",
+            "Accurate physical-digital stock sync to ensure inventory availability",
+            "Mobile access for on-the-go updates that help administrations"
+    
+          ]
+        },
+        {
+          "title": "Centralized Catalog and Member Data",
+          "img": "/images/library-management-system/benefits/centralized-catalog-and-member-data.svg",
+          "decs": "",
+          "items": [
+            "Member records and borrowing history to find real-time book-holders",
+            "Real-time status of each book with its borrowers",
+            "Central dashboard for multi-campus libraries that makes adjustments seamless",
+            "Cloud storage to prevent data loss with automated regular backups",
+            "Track popular books and demand to ensure the minimum required availability",
+            "View overdue or unreturned books that help in managing the stock",
+            "Organize books by genre, subject, or curriculum for easy access",
+            "Admin control for better compliance and keep everyone within limits"
+          ]
+        },
+        {
+          "title": "Saves Time and Administrative Effort",
+          "img": "/images/library-management-system/benefits/saves-time-and-administrative-effort.svg",
+          "decs": "",
+          "items": [
+            "Reduce time spent on book returns through automated reminders",
+            "Eliminate paper-based tracking by digitizing everything",
+            "Send auto-reminders without manual follow-ups",
+            "Make reports available for audits or inspections with a One-click",
+            "Easy configuration of issuing/returning policies for smoothness",
+            "Predefined fine rules save calculation time by making things proper",
+            "Zero physical queues with online renewals that save time and energy",
+            "Integrated search filters save browsing time and offer related options"
+          ]
+        }
+      ],
+      "Choose": [
+        {
+            "title": "Security-First Architecture",
+            "description": "We strongly promote data integrity by adding multiple security layers that make it very difficult to access data for unauthorized personalities.",
+            "icon": "👨‍🏫",
+            "span":false
+        },
+        {
+            "title": "Customizable Features",
+            "description": "It offers numerous customizing-related features, including modifying policies, member types, issuing limits, and more as per your institution’s needs. ",
+            "icon": "🎓",
+            "span":false
+        },
+        {
+            "title": "Integration-Ready",
+            "description": "This system is designed perfectly to integrate with a variety of existing ERPs, student portals, or attendance systems.",
+            "icon": "📅",
+            "highlight": true
+        },
+        {
+            "title": "Round-The-Clock Support",
+            "description": "From onboarding to training and troubleshooting, we are always here for you to offer the best possible outputs on your requests.",
+            "icon": "📚",
+            "span":true
+        }
+    ],
+      "faqDataOne": [
+        {
+            "title": "Can students search for books online using this system?",
+            "desc": "The students have the credibility to access library catalogs from anywhere and find out available books. They can also reserve titles and even request renewals online from their comfort zone. "
+        },
+        {
+            "title": "How does the system calculate late return fines?",
+            "desc": "The late returns fees are non-negotiable at most libraries because they make students responsible. This system automatically adds the fine amount with the help of its predefined rules about fines on late returns. "
+        },
+        {
+            "title": "Can this system manage multiple libraries across branches?",
+            "desc": "With a unified dashboard where data of libraries across all campuses is available through a single screen. It allows admins to manage all data with comfort without getting stuck in the tab fluctuations hassle. "
+        },
+        {
+            "title": "Is RFID integration compulsory?",
+            "desc": "Integration of RFID technology is a little costly, but it is not mandatory. We, with an option to add barcode scanning, offer the same but better results on an affordable budget. "
+        },
+        {
+            "title": "How does this improve library security?",
+            "desc": "No one can enter the library transactions without the authorized personas. Students have to use their RFID or barcode scanning, which gives a transparent view of who is entering the library. Further, to attain books, students still need permission from librarians or teachers that clearly make them responsible for their gains. This collectively reduces theft cases adn improves library security. "
+        }
+    ],
+    "faqDataTwo": [
+        
+        {
+            "title": "Do your team will train our staff to use this software?",
+            "desc": "Exactly, our team will give you a hands-on learning experience with your staff about using this system. Further, video tutorials will also be provided while we always remain ready to solve any issue that appears in our system later after integration.  "
+        },
+        {
+            "title": "Is this system based on cloud-based technology?",
+            "desc": "Of course, in order to sustain your institute’s data security, we have to host all the systems on cloud-based technology. It offers regular and automated backups that prevent data loss while making data accessible anytime, anywhere.  "
+        },
+        {
+            "title": "Is migrating my existing book records into this system possible?",
+            "desc": "Yeah, why not? We designed this system in such a compatible way that it is easy to integrate with any external system, whether it is an ERP or library management software. Further, smooth data migration also promotes data integrity.  "
+        }
+        ,{
+            "title": "Is it possible to set different borrowing limits for staff and students?",
+            "desc": "Yeah, it is practically possible with this system. Customizing book issue limits, fine rules, and return timelines based on user type is all possible with this system.  "
+        },
+        {
+            "title": "Is mobile access available through this system?",
+            "desc": "Yup, because this system has a mobile-first design that makes it responsive for all mobile users."
+        }
+    ]   
+    }

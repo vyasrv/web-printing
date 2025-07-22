@@ -1,0 +1,209 @@
+{
+    "features": [
+    {
+      "id": 1,
+      "title": "Dynamic Fee Structure Setup",
+      "description": "There are multiple factors like class, stream, facility usage, and scholarship eligibility that make direct impacts on the fee structure which is a central pillar of operational success. The system also helps in creating customized fee templates that can be reused and modified easily as per the needs of the related school. Designed to meet the modern-day demands of schools and other educational institutions, it introduces automation, security, transparency, and reporting in one powerful interface. Further, it plays a vital role in managing administration burden by streamlining the entire fee lifecycle from setup to settlement.",
+      "image": "/images/smartfee-management-system/features/dynamic-fee-structure.webp"
+    },
+    {
+      "id": 2,
+      "title": "Online Payment Integration",
+      "description": "By reducing traditional fee payment methods, this system also introduced a modern way to pay fees by adding digital wallets. All these payment gateways are reputed which be trusted, reliable and easy to use, which lets parents pay fees anytime, anywhere, just through their mobiles. Just after sending the payment, parents get an instant receipt that promotes transparency and trust between the school and parents. Activation of flexible plans, such as partial payments, EMIs, auto-deductions for recurring fees, and instant refunds for duplicate payments are all possible with the help of this system now. ",
+      "image": "/images/smartfee-management-system/features/payment-integration.webp"
+    },
+    {
+      "id": 3,
+      "title": "Fine and Discount Management",
+      "description": "Managing complex fines and discounts through this system helps admins maintain workflow and automation. You can configure multi-level fine structures based on days overdue, fee type, or payment cycle. Automated tools reveal fines in the form of percentages on the parent’s dashboard that prevent to get in extra inquiries. On the discount side, institutions can set up scholarships, early-bird incentives, sibling discounts, or staff benefits with eligibility rules. Further, discounts can be applied automatically or approved manually with documentation while also helps in maintaining uniformity in policy enforcement.",
+      "image": "/images/smartfee-management-system/features/fine-and-discount-management.webp"
+    },
+    {
+      "id": 4,
+      "title": "Real-Time Dashboards",
+      "description": "With offering integrated real-time unified dashboard, it is easy to access all the stats of your institution’s financial ecosystem. With the addition of each new fee payment, this dashboard automatically syncs and shows new data on the screen. From the total fees collected in a day to overdue amounts by grade, section, or campus, all data is available in the form of intuitive graphs, lists, and charts that make it even easier to understand. Further, this system offers admins credibility to detect payment bottlenecks, identify underperforming classes, or track fee head-wise performance.",
+      "image": "/images/smartfee-management-system/features/real-time-dashboard.webp"
+    },
+    {
+      "id": 5,
+      "title": "Role-Based Access Controls",
+      "description": "We care a lot about data integrity but when it comes to finances, offering enhanced security becomes our responsibility. With military-grade access segmentation, we protect sensitive data from the reach of every stakeholder of the system. Whether it is a teacher or student, everyone has their limits and can access just related data which ensures tighter internal security, reduces operational risk, and ensures that sensitive data is only seen by the right eyes. With this customized access based on data branches, we make our system more strong and reliable in terms of making finance data safe and sound. ",
+      "image": "/images/smartfee-management-system/features/role-based-controls.webp"
+    },
+    {
+      "id": 6,
+      "title": "Data Export ",
+      "description": "Exporting data reports is one of the basic needs which especially stay helpful during audits, trustee reviews, or budget forecasting. Further, receipt generation and allowing stakeholders to download it anytime anywhere also promotes transparency. First, we make the process of generating these detailed reports for collections, discounts, defaulters, concessions, fines, and refunds within a few clicks, while all the reports can be exported in Excel, CSV, or PDF formats. Integration of advanced filters helps in finding reports by date range, student ID, payment mode, or staff operator.",
+      "image": "/images/smartfee-management-system/features/data-export.webp"
+    }
+    ],
+    "usedFor": [
+    {
+    "title": "Easy Online Payments",
+    "decs": "It reduces the need to visit the school physically for payment operations because everything is manageable through your device. ",
+    "decs2":""      
+    },
+    {
+    "title": "Auto-Invoice Generation",
+    "decs": "With every payment, automated tools come into action and deliver accurate and detailed receipts with due amounts and schedules.",
+    "decs2":""      
+    },
+    {
+        "title": "Instant Alerts to Parents",
+        "decs": "Parents get clear and instant notifications in the form of receipts just after paying the fees, which promotes transparency and trust. ",
+        "decs2":""      
+    },
+    {
+        "title": "Scholarship & Concession Handling",
+        "decs": "Eligible students can easily manage and apply for discounts, waivers, and scholarship schemes. ",
+        "decs2":""      
+    },
+    {
+        "title": "Recurring Fee Automation",
+        "decs": "Automation of payments for tuition, bus, or hostel keeps operations smooth while also avoiding repetition each month or term." ,
+        "decs2":""     
+    }
+    ],
+    "needFor": [
+    {
+    "title": "100% Accuracy In Billing",
+    "decs": "With predefined fee structures and rules, this system automatically collects educational fees and generates accurate receipts with no manual errors and under-collection risks."
+    },
+    {
+    "title": "Paperless Workflow",
+    "decs": "The system handles everything digitally and reduces your carbon footprint. This approach is cost-effective for your school while also making it friendly to nature.  "
+    },
+    {
+    "title": "Timely Fee Collections",
+    "decs": "Before approaching the exact payment time, this system automatically sends fee payment reminders to parents that urge them to pay on time. "
+    },
+    {
+    "title": "Multi-Branch Support",
+    "decs": "Its centralized data handling feature helps schools handle multi-branch support through one dashboard without juggling the hassle of turning the tabs. "
+    },
+    {
+    "title": "Improved Stakeholder Satisfaction",
+    "decs": "Automated alerts, easy payments, and accurate billing-like operations are completed smoothly through this system, keeping every stakeholder satisfied. "
+    }
+    ],
+    "benefits": [
+        {
+          "title": " Streamlined Fee Collection Process",
+          "img": "/images/home/benefits/school-management.svg",
+          "decs": "",
+          "items": [
+            "Simplifies fee planning and structuring for all grades",
+            "Automatically calculates dues, fines, and discounts effortlessly",
+            "Reduces workload and human dependency due to the use of automation",
+            "MinimiZes conflicts or fee disputes with transparent data and receipts",
+            "Supports term-wise, monthly, annual, or custom fee payment schedules",
+            "Removes the need for cash handling due to paying through digital wallets",
+            "Digitally verifies all transactions to keep things accountable",
+            "Enhances fee reconciliation and ledger tracking"
+    
+          ]
+        },
+        {
+          "title": "Centralized Financial Data",
+          "img": "/images/home/benefits/for-teachers.svg",
+          "decs": "",
+          "items": [
+            "All transactions, receipts, dues, and adjustments are handleable in one place",
+            "Enables school admins to monitor multiple branches/campuses at once",
+            "Assists accountants in generating year-end balance sheets",
+            "Stores digital copies of all receipts and invoices in a cloud-based system",
+            "Tracks student-wise and class-wise collection performance.",
+            "Provides search filters and download/export options for better data access",
+            "Grants custom permissions to various users to offer controlled access",
+            "Ensures financial data remains secure, accurate, and compliant"
+          ]
+        },
+        {
+          "title": "Saves Time and Administrative Effort",
+          "img": "/images/home/benefits/students-parents.svg",
+          "decs": "",
+          "items": [
+            "Reduces manual data entry by over 80% and reduces errors",
+            "Auto-schedule reminders and follow-ups for better outputs",
+            "Generates reports with a single click, which is accessible anytime",
+            "Saves hours of physical receipt preparation through automated tools",
+            "Allows paperless processes and approvals that make things eco-friendly",
+            "Reduces parent-school communication gaps that help sustain transparency",
+            "Reduces costs associated with paper, print, and postage",
+            "Increases trust and satisfaction among parents and staff"
+          ]
+        }
+      ],
+      "Choose": [
+        {
+            "title": "Fully Customizable Modules",
+            "description": "The system is customizable and lets schools configure fee structures based on class, board, transport zones, scholarships, or even individual student profiles.",
+            "icon": "/images/smartfee-management-system/why-choose/Fully-Customizable-Modules.svg",
+            "span":false
+        },
+        {
+            "title": "Top-Tier Security Standards",
+            "description": "With 256-bit encryption, secure role-based access, and regular security audits, the system is so strong and non-negotiable when it comes to data integrity. ",
+            "icon": "/images/smartfee-management-system/why-choose/Top-Tier-Security-Standards.svg",
+            "span":false
+        },
+        {
+            "title": "Real-Time Mobile Access",
+            "description": "Mobile-first design and cloud-based integration make data accessible anytime, anywhere, which makes fee management not only easier but also accessible.",
+            "icon": "/images/smartfee-management-system/why-choose/Real-Time-Mobile-Access.svg",
+            "highlight": true
+        },
+        {
+            "title": "Instant Support",
+            "description": "Whether it's configuring your fee logic or solving a technical glitch, our team ensures you're never left waiting.",
+            "icon": "/images/smartfee-management-system/why-choose/Instant-Support.svg",
+            "span":true
+        }
+    ],
+      "faqDataOne": [
+        
+        {
+          "title": "How does the system let us handle fee collection for optional services like transport or hostel?",
+          "desc": "Creating optional add-on fee categories, such as transport, hostel, exam fees, etc., will work for you. The system auto-generates the correct invoices based on each student’s selected services."
+      },
+        {
+            "title": "How secure is our financial data on this system?",
+            "desc": "By applying enterprise-grade security protocols, including data encryption, firewall protection, role-based access control, and regular vulnerability testing, we make it hard for unauthorized entities to reach your financial data."
+        },
+        {
+            "title": "Is it easy for parents to pay fees online through this system?",
+            "desc": "Yeah. This system is easy to use, while integration with reputed adn daily used payment gateways makes it easy for them to pay fees through the system. Automatically, receipt generation also gives an extra trust layer.  "
+        },
+        {
+            "title": "Does the system support offline payments, too?",
+            "desc": "Yup. The most suitable option is to go with paying through digital wallets, but in case of having cash or bank checkers, this system has the credibility to manage these offline payments."
+        },
+        {
+            "title": "Can I customize fee structures for different student groups?",
+            "desc": "Creating custom fee categories and structures for various classes, transport routes, or even individual students is possible with this system. "
+        }
+    ],
+    "faqDataTwo": [
+        
+        {
+            "title": "Does this system will show compatibility with our existing school ERP or accounting software?",
+            "desc": "This system is flexible and designed to meet the compatibility terms to contribute with third-party software, allowing you to continue using your existing tech stack while expanding capabilities."
+        },
+        {
+            "title": "Can the system send automated fee reminders to parents?",
+            "desc": "Sending parents to fee payment reminders is one of the top features that make it effortless for us to collect fees at the initial phase of the month. It is also cost-effective because it reduces the need to make calls with parents about fee payments."
+        },
+        {
+            "title": "Can multiple admins manage the platform?",
+            "desc": "Multiple admins in which head, teachers and financial professionals are included can handle the system but with role-based access from the admins. If admins have no trust issue, he/she can have authority to give them full control of the system."
+        }
+        ,{
+            "title": "Is training provided for school staff to use this system?",
+            "desc": "While it i not difficult to use this system, we still give them video tutorials and hand-to-hand guides about using the system. Plus, our support is available whenever you need extra help. "
+        },{
+          "title": "Is the system helpful in terms of handleing refunds or fee adjustments?",
+          "desc": "There is a need for a few clicks when it comes to handling refunds and adjustments. Processing partial or full refunds, shifting payments to other heads, or adjusting them in future billing cycles as per your refund policy is all possible through this system. "
+      }
+        
+    ]   
+    }

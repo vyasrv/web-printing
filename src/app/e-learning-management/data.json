@@ -1,0 +1,147 @@
+{
+"features": [
+{
+  "id": 1,
+  "title": "Course Creation & Content Management",
+  "description": "Integrated tools in our learning management systems help teachers in creating and designing content. After they upload content direct to the different files on base of content type, all the content in the form of videos, PDFs, quizzes, assignments, and presentations is seamlessly available to students through just using file filters. The availability of courses in the form of modules and chapters makes navigation easier for students. Further, the addition of multimedia content is also possible, which helps in offering rich content while teachers or students can only access the content as per their role-based access",
+  "image": "/images/e-learning-management/features/course-creation.webp"
+},
+{
+  "id": 2,
+  "title": "Live Classes & Virtual Classrooms",
+  "description": "We offer relief with our in-built tools to educational institutes. Now, they have no burden of spending money on extra tools like Zoom. These tools are easy to operate, and teachers can schedule meetings with just a click. The addition of tools like screen sharing, whiteboarding, breakout rooms, and live polls in our e-learning management system makes teaching easier and more interactive. With the addition of a chat section, students can take part in communications with the teachers by commenting and asking questions, while the option to raise hands is also available.",
+  "image": "/images/e-learning-management/features/live-classes.webp"
+},
+{
+  "id": 3,
+  "title": "Student Progress Tracking & Analytics Dashboard",
+  "description": "Days are gone when student’s performance was analyzed on guesses. Our LMS gives opportunities to teachers to take detailed analytics that help them improve teaching strategies and student outcomes. Both individual and batch-level performance reports are easy to access with their quiz scores and course completion rates. This data is available in the form of visual graphs that are all collectively exportable. Teachers can also get alerts regarding those students who are not performing well or facing struggles due to their less time spending behavior on education modules.",
+  "image": "/images/e-learning-management/features/student-progress.webp"
+},
+{
+  "id": 4,
+  "title": "Multi-User Roles & Access Control",
+  "description": "We, as a leading school software development company in India, know exactly the pain points of schools. Data integrity matters a lot here, while getting stuck in information overload is also common here. We sort out this problem by giving role-based access to every stakeholder. Admins can access all kinds of data through a centralized dashboard, while teachers can only manage courses and grade students. Despite this, student’s access is limited to their study material, while parents can view their child’s performance and attendance.",
+  "image": "/images/e-learning-management/features/multi-roles.webp"
+},
+{
+  "id": 5,
+  "title": "Notifications, Reminders & Communication Tools",
+  "description": "Schools are all about discipline and time management. We, with built-in notification systems, keep everyone in the loop. Automated reminders for classes and assignments are sent automatically. Teachers can also send specific sudden notifications to students regarding near future happenings. The administration also has the authority to make sudden announcements that can be made visible on dashboards or via push alerts. We aim to ensure no deadlines are missed and keep students aware of their learning journey status.",
+  "image": "/images/e-learning-management/features/notifications.webp"
+},
+{
+  "id": 6,
+  "title": "Assignments, Quizzes & Automated Assessments",
+  "description": "Evaluation is the biggest burden of teachers because it takes a lot of energy and time but no more. Now, teachers can design, distribute, and evaluate assessments seamlessly due to the integration of a powerful testing engine. It is easy for teachers to create and share MCQs, short answers, essays, match-the-column and fill-in-the-blanks. The system auto-checks objective answers and offers instant feedback to students. In the end, calculated marks are easy to add to student profiles or grade books.",
+  "image": "/images/e-learning-management/features/assignments.webp"
+}
+],
+"usedFor": [
+{
+"title": "Digital Course Delivery",
+"decs": "Now, schools are able to upload, organize, and deliver digital learning materials seamlessly with the integration of this LMS.",
+"decs2":""      
+},
+{
+"title": "Remote and Hybrid Learning Support",
+"decs": "It supports the hybrid model because teachers are now can connect with students through live video sessions, discussion boards, and messaging tools.",
+"decs2":""      
+},
+{
+    "title": "Progress Tracking and Performance Analytics",
+    "decs": "By tracking student participation, assignment scores, and time spent on modules, this E-learning system provides detailed insights.",
+    "decs2":""      
+},
+{
+    "title": "Certification and Compliance Management",
+    "decs": "On completion of any course, automated tools generate exportable certifications accurately with timestamps and digital verification.",
+    "decs2":""      
+},
+{
+    "title": "Resource Sharing Across Departments",
+    "decs": "All resources, including case studies, templates, training videos, or documents, are now very easy to handle through this LMS." ,
+    "decs2":""     
+}
+],
+"needFor": [
+{
+"title": "Centralized Learning Hub",
+"decs": "With all learning material, including videos, notes, quizzes, and assignments, in one place, this system proves itself a must-have for schools."
+},
+{
+"title": "Saves Time",
+"decs": "Handling multiple time-consuming tasks automatically saves the time of institutes and lets them stay in flow, which brings better performance. "
+},
+{
+"title": "Data-Driven Decision Making",
+"decs": "With detailed student performance reports and course efficiency, LMS gives every data that helps in making informed decisions."
+},
+{
+"title": "Eco-Friendly and Cost-Effective",
+"decs": "No use of paper reduces wood use while also making a big positive impact on expenditures."
+},
+{
+"title": "Anytime, Anywhere Access",
+"decs": "All the data is available for every stakeholder 24/7. With cloud integration, it is almost accessible anywhere."
+}
+],
+"benefits": [
+    {
+      "title": "Streamlined Learning & Teaching Process",
+      "img": "/images/e-learning-management/benefits/teaching-process.svg",
+      "decs": "",
+      "items": [
+        "In the e-learning sector, daily manual, repetitive tasks that consume a high amount of time are easily handled through this system. It let them:",
+        "schedule, assign, and manage courses effortlessly",
+        "offer customized learning journeys on the base of student’s performance",
+        "Use an eco-friendly teaching approach (no paper use)",
+        "Offer multimedia support in live classrooms"
+
+      ]
+    },
+    {
+      "title": "Streamlined Inventory Handling Across Departments",
+      "img": "/images/e-learning-management/benefits/inventory-departments.svg",
+      "decs": "",
+      "items": [
+        "We, with our inventory management system, entirely change the way of the school’s inventory management. Now, schools are able to",
+        "Digitally track assets of every area (lab, classroom, e.t.c.)",
+        "Automate supply movement (issue, return, reorder)",
+        "Maintain transparent logs of campuses",
+        "reduce human dependency"
+      ]
+    },
+    {
+      "title": "Security, Accountability & Damage Control",
+      "img": "/images/e-learning-management/benefits/security-control.svg",
+      "decs": "",
+      "items": [
+        "We keep everything, including transparency, security, and responsibility, in mind to keep every stakeholder accountable. It enables schools to;",
+        "Avoid unnecessary stocking by custom reordering alerts",
+        "Better budget allocation through purchase history",
+        "Identifying idle inventory to optimize reuse",
+        "manage school supplies by understanding the consumption trends"
+      ]
+    }
+  ],
+  "faqDataOne": [
+    {
+        "title": "Can this LMS be used by schools, colleges, and training centers alike?",
+        "desc": "Of course, this LMS is alike beneficial for all educational setups from schools to universities. Despite this system is clearly too much beneficial for corporate training institutes and online coaching classes."
+    },
+    {
+        "title": "Is it possible to integrate live classes with this system?",
+        "desc": "Yeah, this system is clearly designed to make it easy to offer premium standard digital education. So, it is one of the basic steps for it to stay integrated with live class scheduling apps like Google Meet and Zoom. It lets admins schedule, host and record live classes directly from your dashboard."
+    },
+    {
+        "title": "Can parents also access student progress through the LMS?",
+        "desc": "Yeah, parents are the prominent stake holder of our system. We designed a special parent control where guardians can view their child’s attendance, grades, assignments, and teacher feedback."
+    },
+    {
+        "title": " Is it mobile-friendly? Can students learn from their phones?",
+        "desc": "Yes, we focus on keeping things simplify for students. Our LMS supports all devices, especially mobiles and stays responsive on all of them. This way, students can easily access courses, take quizzes, and view results direct from their smartphones"
+    }
+],
+"faqDataTwo": []   
+}

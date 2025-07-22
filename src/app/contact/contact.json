@@ -1,0 +1,54 @@
+{
+"offceHQ": [
+ {
+   "id": 1,
+   "city": "Dublin",
+   "hq": "European HQ",
+   "image": "/images/contact/Dublin.webp",
+   "address": "1 Sir John Rogerson's Quay, Dublin 2",
+   "phone": "+353 1518 7500",
+   "email": "dublin@company.com"
+ },
+ {
+   "id": 2,
+   "city": "Singapore",
+   "hq": "Asia-Pacific HQ",
+   "image": "/images/contact/Singapore.webp",
+   "address": [
+     "60 Anson Road",
+     "Mapletree Anson, #10-03",
+     "Singapore 079914"
+   ],
+   "phone": "+65 6955 6000",
+   "email": "singapore@company.com"
+ }
+],
+
+"contactNo": [
+{
+"name": "Americas",
+"countries": [
+{
+"name": "U.S. and Canada","numbers": [  { "language": "English", "number": "+1 888 6482 7768" },  { "language": "Spanish", "number": "+1 857 829 5064" }
+]
+},
+{
+"name": "Brazil","numbers": [  { "language": "Portuguese", "number": "+55 11 4700-3592" },  { "language": "English", "number": "+55 11 4700-3593" }]
+},
+{
+"name": "Chile","numbers": [  { "language": "Spanish", "number": "+56 2 2618 5483" },  { "language": "English", "number": "+56 2 2618 5486" }]
+},
+{
+"name": "Colombia","numbers": [  { "language": "Spanish", "number": "+57 601 6284800" },  { "language": "English", "number": "+57 601 3714700" }]
+},
+{
+"name": "Mexico","numbers": [  { "language": "Spanish", "number": "+52 55 8877 6736" },  { "language": "English", "number": "+52 55 8877 6783" }]
+}
+]}],
+"GetInTouch": 
+ {
+    "heading":"Get in touch",
+    "content":""
+ }
+}
+  

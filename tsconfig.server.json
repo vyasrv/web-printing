@@ -1,0 +1,36 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "lib": ["es2019"],
+    "target": "es2019",
+    "isolatedModules": false,
+    "noEmit": false
+  },
+
+
+  // for build 
+
+// "extends": "./tsconfig.json",
+//   "compilerOptions": {
+//     "module": "es2015",
+//     "outDir": "dist",
+//     "lib": ["es2019"],
+//     "target": "es2019",
+//     "isolatedModules": false,
+//     "noEmit": false
+//   },
+
+
+  // "compilerOptions": {
+  //   "module": "commonjs",
+  //   "moduleResolution": "node",
+  //   "target": "es2015",
+  //   "skipLibCheck": true,
+  //   "outDir": "dist",
+  //   "strict": false,
+  //   "noEmitOnError": false
+  // },
+  "include": ["server.ts"]
+}

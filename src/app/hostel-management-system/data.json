@@ -1,0 +1,208 @@
+{
+    "features": [
+    {
+      "id": 1,
+      "title": "Smart Room Allocation",
+      "description": "Days are gone when the room was allocated to students on the base of guesses while doing a lot of paperwork through registers and Excel sheets was also mandatory, but now, smart solutions are available. This smart room allocation feature helps students get their required rooms that match predefined parameters such as gender, academic year, special needs, or personal preferences. Further, this system is scalable and helps you manage the hindered of students while also ensuring no double-bookings or under-utilized rooms. It even offers flexible room reassignment and roommate pairing suggestions on the basis of batch-wise allocation to streamline move-ins during the admission season.",
+      "image": "/images/hostel-management-system/feartures/smart-room-allocation.webp"
+    },
+    {
+      "id": 2,
+      "title": "Visitor & Gate Pass Management",
+      "description": "This management really empowers the student's safety. Whenever any visitor comes here, he/she has to share their IDs, reasons to visit and data about students they’re coming to meet, which all makes things streamlined and easy to handle in any inconvenient situation. For enhanced security and productivity, the time to meet students remains limited and ends after a set duration. Further, this feature keeps the parents aware of who is coming to meet their children, which promotes transparency and accountability and also offers an extra layer of better hostel security control.",
+      "image": "/images/hostel-management-system/feartures/gate-pass-management.webp"
+    },
+    {
+      "id": 3,
+      "title": "Inventory & Asset Management",
+      "description": "Managing inventory manually causes a lot of troubles, such as inventory loss, over-purchasing, or under-utilization, but this feature makes things simple and clear by giving an organized record of furniture, electronics, kitchen equipment, toiletries, and utility items with automation tools which send automated alerts about damaged inventory on the basis of reported issues and their lifecycle. Further, admins can manage the waste of inventories and extend asset lifespan by analyzing usage trends, calculating depreciation, and scheduling stock replenishments.",
+      "image": "/images/hostel-management-system/feartures/inventory-management.webp"
+    },
+    {
+      "id": 4,
+      "title": "Real-Time Occupancy Dashboard",
+      "description": "With instant visibility through the real-time dashboard, the school administration can check the occupancy level of each floor, room and building. With this initiative dashboard, all the data, including who’s checked in and who’s due for check-out, is accessible within seconds. The additional feature is the availability of a colour-coded view of the occupancy area for better and quicker understanding. This extremely reduces time spent on manual inspections and enables faster decision-making during peak allotment or exit periods. ",
+      "image": "/images/hostel-management-system/feartures/occupancy-dashboard.webp"
+    },
+    {
+      "id": 5,
+      "title": "Integrated Fee Management",
+      "description": "Integrated fee management reduces the need to separately manage hostel fee payments in spreadsheets or third-party software. Further, it also plays a vital role in handling hostel-specific dues, security deposits, refunds, and concession records that make operations more smooth and accountable. An automated receipt generation feature is also available in this system that adds more convenience by allowing us to track the fee payment-related operations. Further, customizable fee structures for different student categories and scheduled automated reminders via SMS or email also add some smoothness.",
+      "image": "/images/hostel-management-system/feartures/fee-management.webp"
+    },
+    {
+      "id": 6,
+      "title": "Digital Student Profiles",
+      "description": "This system gives the opportunity to create a personalized profile for each student where he/she can add all kinds of details, including room history, contact info, guardian details, hostel movement logs, to special dietary or health requirements. This info is not accessible to everyone but to admins who can use it in case of any sudden trama, inception and audits. The uploadation of specific documents like ID proofs, medical certificates, and permission forms is also possible here, which also helps in enhancing transparency. ",
+      "image": "/images/hostel-management-system/feartures/student-profiles.webp"
+    }
+    ],
+    "usedFor": [
+    {
+    "title": "Room & Bed Allocation",
+    "decs": "Unlike manual registers, where human errors and double bookings are normal, this system helps in assigning rooms to students in a smart, rule-based manner.",
+    "decs2":""      
+    },
+    {
+    "title": "Tracking Student Movements",
+    "decs": "Biometric or RFID integrations let you track transparent records of student presence or absence in the hostel by giving exact info about when a student enters or leaves the hostel premises.",
+    "decs2":""      
+    },
+    {
+        "title": "Fee & Payment Management",
+        "decs": "Due to integration with the school’s finance module, this system lets you handle the entire cycle, including auto-reminders and late fee rules.",
+        "decs2":""      
+    },
+    {
+        "title": "Medical Monitoring",
+        "decs": "All medical data about students is added to their personalized profiles, letting the institute give special treatment to eligible students for faster recovery. ",
+        "decs2":""      
+    },
+    {
+        "title": "Leave Management",
+        "decs": "Now, students can request leave from their comfort zone with details like specifying dates, reasons, and parent approval." ,
+        "decs2":""     
+    }
+    ],
+    "needFor": [
+    {
+    "title": "Enhanced Safety & Security",
+    "decs": "With diverse activity handling like monitoring student activities, logging visitors, and tracking every movement securely, the system offers multi-layer security."
+    },
+    {
+    "title": "Better Parent Communication",
+    "decs": "Keep parents in the loop through automated notifications about the absence of their children from the hostel to keep things transparent and secure."
+    },
+    {
+    "title": "Improved Record-Keeping",
+    "decs": "The data is kept in a modern cloud-based system, which makes it secure and accessible anytime, anywhere"
+    },
+    {
+    "title": "Controlled Permissions",
+    "decs": "For every stakeholder, there are some boundaries set in terms of accessing data that offer an extra security layer for maintaining data integrity."
+    },
+    {
+    "title": "Eco-Friendly",
+    "decs": "Reduce paper usage, printing costs, and carbon footprint, which collectively makes it an eco-friendly option. "
+    }
+    ],
+    "benefits": [
+        {
+          "title": " Streamlined Hostel Operations",
+          "img": "/images/hostel-management-system/benefits/streamlined-hostel-operations.svg",
+          "decs": "",
+          "items": [
+            "Digital check-ins and check-outs that reduce manual errors",
+            "Scheduled room assignments to prevent overlaps and double bookings",
+            "Emergency handling becomes faster and more accurate.",
+            "Automatic leave approvals cut down on paper workflows",
+            "Task delegation between warden and admin becomes easy now",
+            "Late-night movement logs add accountability to give an extra security layer",
+            "Health check-ins (based on profile data) improve student well-being",
+            "Visitor hours are better enforced, which saves warden hours every day"
+    
+          ]
+        },
+        {
+          "title": "Centralized Data & Student Management",
+          "img": "/images/hostel-management-system/benefits/centralized-data-student-management.svg",
+          "decs": "",
+          "items": [
+            "Unified dashboard where all student data (ID cards, medical data) is accessible",
+            "Attendance, hostel fee history, and room history in one place",
+            "Cloud storage prevents data loss through regular backups",
+            "Searchable records by name, ID, or room that make things effortless",
+            "Admins can access real-time reports regarding any matter",
+            "Configurable access for staff, security, and supervisors",
+            "Multi-campus hostel data stored together for enhanced scalability",
+            "Data remains secure with encryption and controlled access"
+          ]
+        },
+        {
+          "title": " Saves Time And Administrative Effort",
+          "img": "/images/hostel-management-system/benefits/saves-time-and-administrative-effort.svg",
+          "decs": "",
+          "items": [
+            "Auto-generated reports replace manual compilation",
+            "Due to detailed notifications, parents don’t need to call to ask",
+            "Health logs and issue tracking save medical staff time",
+            "Leave approvals happen instantly without the need for a physical meetup",
+            "Asset maintenance becomes preventive, not reactive",
+            "Registers go digital, which means less paper, less confusion, Eco friendly.",
+            "Boosts overall productivity for hostel teams by making operations effortless",
+            "Fee reminders are automated to maintain a smooth air of trust"
+          ]
+        }
+      ],
+      "Choose": [
+        {
+            "title": "Future-Ready",
+            "description": "TThe system is scalable, and you can customize it to make it fit your institute’s specific needs, which makes it future-ready.",
+            "icon": "/images/hostel-management-system/why-choose/future-ready.svg",
+            "span":false
+        },
+        {
+            "title": "Mobile-Friendliness",
+            "description": "As most of the stakeholders belong to mobiles, the system is highly responsive to mobiles, whether it’s iOS or Android.",
+            "icon": "/images/hostel-management-system/why-choose/mobile-friendliness.svg",
+            "span":false
+        },
+        {
+            "title": "Cloud-Based",
+            "description": "Start using the system immediately without a complicated setup due to cloud-based integration, which also makes data accessible anytime, anywhere.",
+            "icon": "/images/hostel-management-system/why-choose/cloud-based.svg",
+            "highlight": true
+        },
+        {
+            "title": "Analytics & Reporting",
+            "description": "In the form of detailed reports, gain actionable insights to enhance hostel productivity and safety.",
+            "icon": "/images/hostel-management-system/why-choose/analytics-reporting.svg",
+            "span":true
+        }
+    ],
+      "faqDataOne": [
+        {
+            "title": "Is this software suitable for multiple hostels on one campus?",
+            "desc": "Absolutely. It is the perfect choice for multiple hostels on one campus because it is scalable and lets admins manage multiple hostels, blocks, and wings from a single dashboard. With its centralized monitoring feature, the admin can easily manage the multi-hostel functionalities from the same board without logging in and out each time."
+        },
+        {
+            "title": "Can parents get alerts through this system?",
+            "desc": "Yeah, it is one of the prominent feature of this system that let us keep parents aware of each minute happening with their children. Notifications about their health, and absence patterns are regularly sent to them. We even notify their parents if a non-related person from outside of school comes to meet their children."
+        },
+        {
+            "title": "Is it possible to customize room allocation rules?",
+            "desc": "We know that every institute has its own limitations and precise conditions according to which it wants to make customizable room allocation rules. That is why we added such a system where you can allot rooms by gender, year of study, course, special needs, preferences, or even friendship requests. "
+        },
+        {
+            "title": "Is it compatible with our school ERP?",
+            "desc": "Yes, the system is designed to be compatible with more school ERPs, and your ERPs count in them, undoubtedly. Whether your school already uses software for attendance, academics, finance, or admissions, this system can sync and exchange data smoothly across modules."
+        },
+        {
+            "title": "How can you justify the security of student’s data?",
+            "desc": "We know the worth of the data that enables us to use best security practices like end-to-end encryption protocols to make data more secure. Further, SSL certification, multi-factor authentication, and role-based access also play a crucial role in making things more securer."
+        }
+    ],
+    "faqDataTwo": [
+        
+        {
+            "title": "Does the system have integrations to handle medical emergencies?",
+            "desc": "Students personal profiles where all their data is privately available for administration. Here’ a specific module available where they have to put info regarding their medical condition that urge institute to manage precautions for their better health."
+        },
+        {
+            "title": "How does visitor tracking work?",
+            "desc": "During visitor's visits, we collect a lot of information regarding him, in which name, relation to the student, purpose of visit, and expected time of stay are all included. With check-in and check-out times recorded, we also calculate their staying time that all data collectively used to ensure advanced security. "
+        },
+        {
+            "title": "What kind of reports are accessible with this system?",
+            "desc": "There are a huge number of reports that can be generated and shared in PDF and Excel form. In some prioritized reports, room occupancy trends, hostel fee collections, student leave history, and inventory usage and damages reports are accessible. "
+        }
+        ,{
+            "title": "Can we manage maintenance schedules?",
+            "desc": "With a built-in maintenance tracking module where the life cycle of available inventory is added can be used to manage maintenance schedules. Further, these changes can be done with consideration of reputed issues. "
+        },
+        {
+            "title": "Does it help students with hostel budgeting?",
+            "desc": "Yeah. By analyzing accurate data on occupancy rates, fee collections, utility usage, inventory status, and maintenance costs, the system helps students in setting a defined budget."
+        }
+    ]   
+    }

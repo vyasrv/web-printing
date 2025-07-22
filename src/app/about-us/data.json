@@ -1,0 +1,18 @@
+{
+     "partnersOne" : [
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" }
+      ],
+      
+       "partnersTwo" : [
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" },
+        { "title": "logo", "img": "/images/about/team/Neha-Jain.webp", "teamName": "Neha Jain", "designation": "Practice Lead Vlocity" }
+      ]
+}

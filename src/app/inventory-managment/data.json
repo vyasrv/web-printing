@@ -1,0 +1,161 @@
+{
+    "features": [
+       
+        {
+          "id": 1,
+          "title": "Real-Time Stock Visibility Across All Departments",
+          "description": "The involvement of this software in schools “Say No” to guesswork. With the availability of all information, including what products are available, what’s in use and what requires what’s pending at any given moment, let admins make informed decisions. It happens through live dashboards and instant updates, which are easily accessible to them. You can understand this through an example of chalk. When the stock of chalks goes below the standard count, the system flags and gives a real-time notification to settle the availability. Isn’t it a seamless and effortless way to manage inventory?",
+          "image": "/images/inventory-management-system/features/Real-Time Stock Visibility Across All Departments.webp"
+        },
+        {
+          "id": 2,
+          "title": "Multi-Level Access Control with Role-Based Permissions",
+          "description": "With role-based access to every stakeholder of the software, this system lets them manage things seamlessly. Admins have access to all happenings through a centralized dashboard. Despite this, other heads of the institute and staff have role-based access in which they can access just inventory info regarding their role. A librarian can only access library-related info while a lab owner can access every info regarding the lab. This keeps things transparent, seamless and accountable while also promoting data integrity and keeping the system safe from unauthorized actions.",
+          "image": "/images/inventory-management-system/features/role-based-permission.webp"
+        },
+        {
+          "id": 3,
+          "title": "Request and Approval Workflow Automation",
+          "description": "The use of manual requests is almost gone, but days are also gone when you have to write detailed emails to get access to the inventory. With the help of systems, staff can automatically specify the item, quantity, and purpose and no need here is for extra chit-chat. With automated systems, the request automatically reaches the admins, where the decision of rejection or acceptance has been made.  It also views request histories and pending approvals and tracks how inventory flows within the institution, all are handleable from a centralized dashboard.",
+          "image": "/images/inventory-management-system/features/Request-Approval-Workflow-Automation.webp"
+        },
+        {
+          "id": 4,
+          "title": "Low Stock & Expiry Notifications",
+          "description": "To manage the low availability of inventory, here are the predefined minimum values set for each item. Whenever their stocks go at that count, the system automatically gives pop-ups to admins. This lets them make stock available at the right time in the school, which protects them from sudden drama that is created due to less availability. When it comes to the expiry of items,  like science lab chemicals or first aid supplies, this system has the ability to notify staff automatically before their expiry dates.  ",
+          "image": "/images/inventory-management-system/features/low-stock-notification.webp"
+        },
+        {
+          "id": 5,
+          "title": "Item Assignment and Resource Allocation",
+          "description": "This system enables administrations to allocate specific items. Let’s make it simple with an example. In case of assigning a projector to a classroom or tablets to a specific badge, this system collects all kinds of information like what the item is, where it is and who is responsible for this. This gives a layer of security and satisfaction while demoting the misuse of any item. This way, the system also has strict unauthorized access to school inventory.",
+          "image": "/images/inventory-management-system/features/assignment-and-resource-allocation.webp"
+        },
+        {
+          "id": 6,
+          "title": "Customized Item Categories",
+          "description": "There are a lot of items here in any school that make things complex, but not with this system. Here, everything is smart, and you can find out inventories by using filters. The addition of categories makes it easy to reach the items of your concern. Like in case of a requirement for a lab item, you can just approach it by choosing the lab inventory category. To go deeper, you can use filters to find out the exact item by searching it exactly with its name. No need to hustle scrolling; just go, search, filter and order an item to get it without spending too much time on it.",
+          "image": "/images/inventory-management-system/features/customized-categories.webp"
+        }
+      ],
+      "usedFor": [
+        {
+            "title": "Science Lab Inventory Management ",
+            "decs": "Lab technicians can track the usage, while teachers can request equipment for practical sessions with this system. ",
+            "decs2":""      
+        },
+        {
+            "title": "Library Department",
+            "decs": "Librarians are able to track issues/returns and manage books,  journals, reference materials, and digital media stock.",
+            "decs2":""      
+        },
+        {
+            "title": "IT Department",
+            "decs": "The use of  IT assets like computers, smart boards, tablets, projectors, routers, and printers remains gradual in schools where tracking is very easy now. ",
+            "decs2":""      
+        },
+        {
+            "title": "Sports Department",
+            "decs": "In sports inventory, uniforms, kits, and playing objects are all now easy to track with the application of this system.",
+            "decs2":""      
+        },
+        {
+            "title": "Hostel Management",
+            "decs": "Know exactly where are the beds, curtains, mattresses, kitchen utensils, and common area furniture with the integration of this system." ,
+            "decs2":""     
+        }
+    ],
+    "needFor": [
+        {
+            "title": "Detailed Accountability",
+            "decs": "The culture of negligence ended with this system because it gives detailed insights into what is used by which department."
+        },
+        {
+            "title": "Effective Replacements and Maintenance",
+            "decs": "With timely notifications for aged inventory, the system urges you to own inventory in its best form."
+        },
+        {
+            "title": "No Time Waste",
+            "decs": "With no need for pen adn paper, which creates complexities and promotes human errors, the administration got extra time to use it productively."
+        },
+        {
+            "title": "Manages Over-Purchasing Or Shortages",
+            "decs": "Due to not having access to real-time exact information, schools can order already available inventory, which is not possible with this system."
+        },
+        {
+            "title": "Prevents Budget Misallocations",
+            "decs": "With rough data availability, staff can demand a budget for items that are not necessary to buy, but this system also settles mislocations."
+        }
+    ],
+    "faqDataOne": [
+        {
+            "title": " What is a School Inventory Management System?",
+            "desc": "It is a system that works under school management software and lets schools manage all their inventories smartly."
+        },
+        {
+            "title": "What items can be managed using this system?",
+            "desc": "Despite this, ask which when is not manageable. This is because every item, from lab equipment to stationary, is manageable through this system."
+        },
+        {
+            "title": "Is this system suitable for multi-branch schools?",
+            "desc": "Yeah, this single system, under its software, can manage the inventories of multiple branches of any school system."
+        },
+        {
+            "title": " Can we track item history and usage?",
+            "desc": "Absolutely, full item movement history, including issuance, return, repairs, and depreciation, is trackable through this system."
+        },
+        {
+            "title": "Is barcode scanning available?",
+            "desc": "In 2025, going with barcodes is no longer an option; you have to do this to meet modern standards."
+        }
+    ],
+    "faqDataTwo": [
+        {
+            "title": " Is it possible for the system to generate reports for audits?",
+            "desc": "Yeah, it is possible for it, and you can all reports including generate audit logs, item-wise reports, category reports, and department-specific summaries."
+        } ,
+        {
+            "title": "Do you offer training sessions to staff for using the system?",
+            "desc": "Yes, when it comes to onboarding, we give staff detailed sessions where they learn a lot about managing the system."
+        } 
+    ],
+    "benefits": [
+        {
+          "title": "Centralized Asset Records with Real-Time Sync",
+          "img": "/images/inventory-management-system/benefits/centralized-asset-records-with-real-Time-sync.svg",
+          "decs": "",
+          "items": [
+            "No need to be stuck in the hassle of maintaining multiple files and versions because we bring every inventory detail under one intelligent system. Now, your institution can",
+            "Go with a unified inventory dashboard for all departments",
+            "Real-time data analytics really helps with smart academic decisions regarding students and financial growth ",
+            "Prevent duplicate entries with auto-validation checks",
+            "Ensure each issued item is tagged with responsible",
+            "Get live sync of asset status "
+          ]
+        },
+        {
+          "title": "Streamlined Inventory Handling Across Departments",
+          "img": "/images/inventory-management-system/benefits/streamlined-Inventory-handling-across-departments.svg",
+          "decs": "",
+          "items": [
+            "We, with our inventory management system, entirely change the way of the school’s inventory management. Now, schools are able to",
+            "Digitally track assets of every area (lab, classroom, e.t.c.)",
+            "Automate supply movement (issue, return, reorder)",
+            "Maintain transparent logs of campuses",
+            "reduce human dependency"
+          ]
+        },
+        {
+          "title": "Security, Accountability & Damage Control",
+          "img": "/images/inventory-management-system/benefits/security-accountability-&-damage-control.svg",
+          "decs": "",
+          "items": [
+            "We keep everything, including transparency, security, and responsibility, in mind to keep every stakeholder accountable. It enables schools to;",
+            "Avoid unnecessary stocking by custom reordering alerts",
+            "Better budget allocation through purchase history",
+            "Identifying idle inventory to optimize reuse",
+            "manage school supplies by understanding the consumption trends"
+          ]
+        }
+      ]   
+}
